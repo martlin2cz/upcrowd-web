@@ -13,6 +13,8 @@ const WEB_PAGES = [
 	/* "id-of-page" => ["The title of Page", "the-page-file.html"], */
 	"home" => ["Vítejte", "home.html"],
 	"lorem" => ["Lorem Ipsum", "lorem.php"],
+	"vogon" => ["Vogonská poezie", "vogon.html"],
+
 	"contact" => ["Kontakt", "contact.html"],
 ];
 ?>
