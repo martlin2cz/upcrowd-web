@@ -46,7 +46,7 @@
 				</div>
 			</article>
 		<?php } ?>
-	<main>
+	</main>
 
 	<?php if ($footer) { ?>
 		<footer>

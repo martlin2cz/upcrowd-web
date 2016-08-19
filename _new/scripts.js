@@ -4,5 +4,13 @@
  */
 
 $(function() {
-	//TODO
+	floatHeader();
 });
+
+function floatHeader() {
+	var $header = $('header');
+	var $replacement = $('<header class="header-replacement"></header>');
+
+	$header.addClass('header-floating');
+	$header.after($replacement);
+}

@@ -10,7 +10,8 @@ single_page_layout_template(
 ', 
 	/* specify title here */
 '		<!-- title -->
-		<i>(logo)</i>
+		<img src="images/logo200.png" alt="UP Crowd" id="header-logo" />
+		<span>Popularizujeme vědu!</span>
 ',
 /* specify footer here */
 '		<!-- footer -->

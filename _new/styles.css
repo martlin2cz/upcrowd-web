@@ -3,9 +3,109 @@
  * m@rtlin, 18. 8. 2016
  */
 
-/* whole page styles */
-body {
+/* *** whole page styles */
+html, body {
+	padding: 0;
+	margin: 0;
+
+	
 	font-family: Verdana, Geneva, sans-serif;	/* TODO FIXME */
+	background: url('images/background.jpg');
+	color: #000C40;	
+}
+
+a {
+	text-decoration: none;
+	color: #000C40;
+}
+
+a:hover {
+/*text-decoration: underline;*/
+	color: #FF4D00;
 }
 
 
+
+
+/* *** template styling */
+/* ** header */
+header {
+	display: block;
+	background-color: rgba(255, 255, 255, 0.8);
+	
+	height: 6eM;
+	width: 96%;
+	padding: 1eM 2%;
+}
+
+.spl-title {
+	display: block;
+	float: left;
+}
+
+#header-logo {
+	height: 6eM;
+	vertical-align: middle;
+
+	padding-right: 2eM;
+}
+
+/* * menu */
+.spl-menu {
+	display: block;
+	float: right;
+	
+	margin: 0;
+	padding-left: 0;
+
+	padding-top: 3eM;
+}
+
+.spl-menu-item {
+	display: inline;
+	padding-left: 1eM;
+
+	font-weight: bold;
+}
+
+
+/* ** articles */
+main {
+	clear: both;
+	padding: 5%;
+}
+
+article {
+	background-color: #FFFFFF;
+	padding: 1eM 5%;
+	margin-top: 0.5eM;
+}
+
+.spl-article-title {
+}
+
+.spl-article-content {
+}
+
+/* ** footer */
+footer {
+	background-color: #FFFFFF;
+	padding: 1eM 5%;
+	text-align: right;
+	color: lightgray;
+}
+
+/* *** additional styling */
+.header-replacement {
+}
+
+.header-floating {
+	position: fixed;	
+	position: top;
+}
+
+/* *** styling of article's contents */
+
+article a {
+	font-weight: bold;
+}
