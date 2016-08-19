@@ -9,6 +9,7 @@
 
 <html>
 	<head>
+		<meta charset="utf-8">
 		<title><?= get_web_title() ?></title>
 		<?= $headers ?>
 	</head>

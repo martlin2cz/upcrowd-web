@@ -23,21 +23,24 @@
  * Returns title of web.
  * */
 function get_web_title() {
-	return WEB_TITLE;
+	global $WEB_TITLE;
+	return $WEB_TITLE;
 }
 
 /**
  * Returns list of pages, use `foreach (get_web_pages() as $id => $page) ` to iterate over.
  * */
 function get_web_pages() {
-	return WEB_PAGES;
+	global $WEB_PAGES;
+	return $WEB_PAGES;
 }
 
 /**
  * Returns page of given id.
  * */
 function get_page_of_id($id) {
-	return WEB_PAGES[$id];
+	global $WEB_PAGES;
+	return $WEB_PAGES[$id];
 }
 
 /**
