@@ -5,7 +5,7 @@
 ?>
 <?php require_once('cms-impl.php'); ?>
 
-<?php function single_page_layout_template($headers, $title, $footer) { ?>
+<?php function single_page_layout_template($headers, $title, $footer, $afterpage) { ?>
 
 <html>
 	<head>
@@ -55,6 +55,7 @@
 		</footer>
 	<?php } ?>
 
+	<?= $afterpage ?>
 </body>
 </html>
 <?php } ?>

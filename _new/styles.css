@@ -77,7 +77,7 @@ main {
 
 article {
 	background-color: #FFFFFF;
-	padding: 1eM 5%;
+	padding: 1eM 5% 2eM;
 	margin-top: 0.5eM;
 }
 
@@ -85,6 +85,15 @@ article {
 }
 
 .spl-article-content {
+}
+
+.article-header-buttons {
+	display: none;
+	padding-left: 0.5eM;
+}
+
+.article-header-buttons a {
+	padding-left: 0.5eM;
 }
 
 /* ** footer */
@@ -100,12 +109,26 @@ footer {
 }
 
 .header-floating {
-	position: fixed;	
-	position: top;
+	position: absolute;	
 }
 
 /* *** styling of article's contents */
 
 article a {
 	font-weight: bold;
+}
+
+/* ** gallery styling */
+.gallery {
+	text-align: center;
+}
+
+.thumbnail-6 {
+	vertical-align: middle;
+	height: 6eM;
+}
+
+.thumbnail-8 {
+	vertical-align: middle;
+	height: 8eM;
 }

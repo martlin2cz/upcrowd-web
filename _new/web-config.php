@@ -14,6 +14,7 @@ $WEB_PAGES = [
 	"home" => ["Vítejte", "home.html"],
 	"lorem" => ["Lorem Ipsum", "lorem.php"],
 	"vogon" => ["Vogonská poezie", "vogon.html"],
+	"photos" => ["Obrázky", "photos.html"],
 
 	"contact" => ["Kontakt", "contact.html"],
 ];
