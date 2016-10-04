@@ -24,18 +24,21 @@ a:hover {
 	color: #FF4D00;
 }
 
-
+strong {
+	color: #FF4D00;
+}
 
 
 /* *** template styling */
 /* ** header */
 header {
 	display: block;
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(255, 255, 255, 1.0);
 	
-	height: 6eM;
+	min-height: 3eM;
 	width: 96%;
 	padding: 1eM 2%;
+	border-bottom: 4px solid #FF4D00;
 }
 
 .spl-title {
@@ -44,7 +47,7 @@ header {
 }
 
 #header-logo {
-	height: 6eM;
+	height: 3eM;
 	vertical-align: middle;
 
 	padding-right: 2eM;
@@ -58,7 +61,7 @@ header {
 	margin: 0;
 	padding-left: 0;
 
-	padding-top: 3eM;
+	padding-top: 1eM;
 }
 
 .spl-menu-item {
@@ -78,10 +81,13 @@ main {
 article {
 	background-color: #FFFFFF;
 	padding: 1eM 5% 2eM;
-	margin-top: 0.5eM;
+/*	margin-top: 0.5eM;*/
 }
 
 .spl-article-title {
+	padding-top: 2eM;
+	border-top: 1px solid #000C40;
+
 }
 
 .spl-article-content {

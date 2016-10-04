@@ -4,6 +4,8 @@
 single_page_layout_template(
 	/* specify HTML head headers here */	
 '
+		<meta name="viewport" content="width=device-width">
+
 		<script type="text/javascript" src="jquery.js"></script>
 
 		<!-- page stuff -->

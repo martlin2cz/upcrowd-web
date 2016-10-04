@@ -3,7 +3,7 @@
 <?php
 
 for ($i = 0; $i < 20; $i++) {
-	echo "Lorem Ipsum dolor sit Amet.\n";
+	echo "Lorem <strong>Ipsum</strong> dolor sit Amet.\n";
 }
 
 ?>
