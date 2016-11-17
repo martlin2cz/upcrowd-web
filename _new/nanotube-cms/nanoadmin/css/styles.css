@@ -1,0 +1,273 @@
+/**
+ *
+ * Colors: bg: #808088, #E0E0E8 fg: #404048, #202028, others: #C0C0C0
+ */
+
+/*******************************************************************/
+/* base page styles */
+body, html {
+	padding: 0;
+	margin: 0;
+	
+	font-family: Sans;
+	color: #202028;
+}
+
+header {
+	display: block;
+	background-color: #808088;
+	padding: 1eM 2%;
+	min-height: 4eM;
+}
+
+main {
+	display: block;
+	background-color: #E0E0E8;
+	padding: 4%;
+}
+
+article {
+	display: block;
+	padding-bottom: 1%;
+}
+
+footer {
+	display: block;
+	background-color: #808088;
+	padding: 2%;
+}
+
+a {
+	color: #404048;
+}
+
+a:hover {
+	color: #202028;
+}
+
+/*******************************************************************/
+/* page layout */
+
+#na-header {
+	display: block;
+	float: left;
+}
+
+#na-main-menu {
+	display: block;
+	float:left;
+	padding-left: 4%;
+	padding-top: 1eM;
+}
+
+#na-login-panel {
+	display: block;
+	float: right;
+	padding-top: 0eM;
+}
+
+/** **/
+
+#na-header h2 {
+	padding: 0;
+	margin: 0;
+}
+#na-header h2 img {
+	max-height: 4eM;
+}
+
+#na-main-menu ul {
+	list-style: none;
+	display: inline;
+	padding: 0;
+	margin: 0;
+}
+
+#na-main-menu li {
+	list-style: none;
+	display: inline;
+	padding: 0;
+	margin: 0;
+	font-size: 125%;
+	padding: 0.5eM;
+}
+
+#na-main-menu li a {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#na-login-panel form fieldset {
+	text-align: right;
+	padding: 1eM;
+}
+
+#na-login-panel form fieldset input {
+	padding: 0;
+	margin: 0 0.5eM;
+	display: inline;
+	float: none;
+	max-width: 10eM;
+}
+
+
+#na-login-panel form fieldset label {
+	padding: 0;
+	margin: 0;
+	display: inline;
+	float: none;
+} 
+/*******************************************************************/
+/* common classes */
+
+.inline {
+	display: inline;
+}
+
+/*******************************************************************/
+/* tables */
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin: 1em 0;
+}
+
+table td, th {
+	border: 1px solid #808088;
+	padding: 1eM 0.5%;
+}
+
+table th {
+		background-color: #808088;
+}
+
+table td {
+}
+
+td form {
+	display: inline;
+}
+
+
+/*******************************************************************/
+/* FORMS */
+
+fieldset {
+	display: block;
+	padding: 1eM 2%;
+}
+
+fieldset label {
+	clear: both;
+
+	display: block;
+	float: left;
+	
+	min-width: 12eM;
+	margin: 0.5eM 1%;
+}
+
+fieldset input {
+	display: block;
+	float: left;
+
+	min-width: 10%;
+/*	margin: 0 2%;*/
+	margin: 0.5eM 2%;
+
+}
+
+fieldset input[type=checkbox] {
+	float: left;
+	display: block;
+	min-width: 1eM;
+}
+fieldset select {
+	float: left;
+	display: block;
+
+	margin: 0.5eM 2%;
+}
+
+fieldset textarea {
+	clear: both;
+	display: block;
+	width: 80%;
+	min-height: 20eM;
+	margin: 1em 2%;
+}
+
+.buttons-panel {
+	clear: both;
+	display: block;
+	height: 3eM;
+	padding: 1eM 0;
+}
+
+.buttons-panel input {
+	display: inline;
+	height: 3eM;
+}
+
+fieldset span.note {
+	display: block;
+	float: left;
+	font-style: italic;
+	padding: 0.5eM 1%;
+}
+
+
+/********************************************************************/
+/* Success / Error panels */
+.panel {
+	clear: both;
+	padding: 1eM 2%;
+	margin: 0.5eM 0%;
+}
+
+.success {
+	color: #004000;
+	background-color: #F0FFF0;
+}
+.failure {
+	color: #804000;
+	background-color: #FFF8F0;
+}
+
+.critical-error {
+	color: #800000;
+	background-color: #FFE0E0;
+}
+
+/********************************************************************/
+/* Custom styles */
+table tr.inactive {
+	background-color: #C0C0C0;
+}
+
+a.change-order-link {
+	font-size: 80%;	
+	font-weight: bold;
+}
+
+/** table bordering */
+
+.with-bottom-border {
+	border-bottom: 1px solid #808088 !important;
+}
+
+table.with-no-cells-border {
+	border: 1px solid #808088;
+}
+
+table.with-no-cells-border td {
+	border: none;
+}
+
+
+.html-shorthand-item {
+	display: inline-block;
+	vertical-align: middle;
+	background-color: #C0C0C0;
+	padding: 0.5eM;
+}

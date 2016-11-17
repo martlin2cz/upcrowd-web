@@ -1,3 +1,6 @@
 [submodule "_internal/fb-site-admin"]
 	path = _internal/fb-site-admin
 	url = https://github.com/martlin2cz/fb-page-calendar.git
+[submodule "_new_2"]
+	path = _new_2
+	url = https://github.com/martlin2cz/nanotube-cms
