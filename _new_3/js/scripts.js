@@ -7,7 +7,6 @@ $(function() {
 	floatHeader();
 	setupHeaderSlide();
 	makeSmoothScrolling();
-	//startTheGallery(); //XXX: yet done by template's plugin
 	addButtonsToArticleTitles();
 });
 
@@ -51,7 +50,13 @@ function setupHeaderSlide() {
 function makeSmoothScrolling() {
 	var handler = function(event){
 		event.preventDefault();
-		var linkTop = $( $.attr(this, 'href') ).offset().top;
+		var targetSelector = $.attr(this, 'href');
+		var $target = $(targetSelector);
+		
+		if (!($target.get(0))) {
+			console.error("Undefined anchor " + targetSelector);
+		}
+		var linkTop = $target.offset().top;
 		var offset;
 
 		if (linkTop < prevScrollPos) {
@@ -66,7 +71,8 @@ function makeSmoothScrolling() {
 	};
 
 	
-	$(document).on('click', 'a', handler);
+	$("a[href^='#']").click(handler);
+//	$(document).on('click', 'a', handler);	//FIXME
 }
 
 function startTheGallery() {
