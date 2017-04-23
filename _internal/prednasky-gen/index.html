@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<?php /* require_once("nezapomenout_odkomentovat.php"); */ ?>
-		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="stylesheet" type="text/css" href="css/page.css">
+		<link rel="stylesheet" type="text/css" href="css/card.css">
+		
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 		
 		<script type="text/javascript" src="js/scripts.js"></script>
@@ -12,37 +13,38 @@
 	</head>
 	<body>
 
-		<h2>Údaje o přednáčce</h2>
+		<h2>Údaje o přednášce</h2>
+		<p>Vyplň údaje o přednáčce. Níže se zobrazí orientační náhled, jak bude karta vypadat. Dole jsou pak pole s textem k odeslání a případně importu a exportu. Ukázky přednášek jsou k nalezení v <a href="../../files/aktualni-katalog-prednasek.php">katalogu</a>.</p>
 		<form onsubmit="return update()">
-			<label>Název vystoupení/přednášky</label>
-			<input type="text" id="input-title">
+			<label>Název přednášky</label>
+			<input type="text" id="input-title" onkeyup="update()">
 
 			<label>Obor</label>
-			<input type="text" id="input-subject">
+			<input type="text" id="input-subject" onkeyup="update()">
 			
 			<label>Cílovka</label>
-			<input type="text" id="input-target">
+			<input type="text" id="input-target" placeholder="Vhodné pro ZŠ/SŠ/VŠ" onkeyup="update()">
 				
 			<label>Délka</label>
-			<input type="text" id="input-duration">
+			<input type="text" id="input-duration" placeholder="20/30/45/60/90 min" onkeyup="update()">
 
 			<label>Anotace</label>
-			<textarea id="input-annotation"></textarea>
+			<textarea id="input-annotation" class="big" onkeyup="update()"></textarea>
 				
 			<label>Obrázek na pozadí</label>
-			<input type="url" id="input-background">
+			<input type="url" id="input-background" placeholder="http://něco.com/obrázek.jpg" onkeyup="update()">
 
 
 			<label>Jméno přednášejícího</label>
-			<input type="text" id="input-author-name">
+			<input type="text" id="input-author-name" onkeyup="update()">
 			
 			<label>O přednášejícím</label>
-			<textarea id="input-author-description"></textarea>
+			<textarea id="input-author-description" onkeyup="update()"></textarea>
 				
 			<label>Náhledový obrázek</label>
-			<input type="url" id="input-author-thumbnail">
+			<input type="url" id="input-author-thumbnail" placeholder="http://já.cz/fotka.jpg" onkeyup="update()">
 			
-			<input type="button" value="Upravit" onclick="update()"/>
+			<input type="submit" value="Upravit" onclick="return update()"/>
 		</form>
 
 		<h2>Náhled karty</h2>
@@ -74,7 +76,18 @@
 			</div>
 		</article>
 
-		<h2>K odeslání</h2>
-		<textarea id="to-send"></textarea>
+		<h2>Výstup</h2>
+		<h3>Odeslat</h3>
+		<p>Text zobrazený níže zkopírujte do e-mailu a pošli správci přednášek.</p>
+		<textarea id="to-send" class="big"></textarea>
+
+		<h3>Export</h3>
+		<p>Kód zobrazený níže si zkopíruj a ulož, pro případné úpravy přednášky jej bude možné opět naimportovat vložením do panelu níže.</p>
+		<textarea id="export-json" class="monospaced"></textarea>
+
+		<h3>Import</h3>
+		<p>Kód z předchozího panelu vlož sem, naimportuje se do formuláře.</p>
+		<textarea id="import-json" class="monospaced" onchange="importJSON()"></textarea>
+	
 	</body>
 </html>

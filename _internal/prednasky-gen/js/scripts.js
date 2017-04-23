@@ -15,9 +15,45 @@ function update() {
 	transferBgImage("background", "Obrázek na pozadí");
 	transferImage("author-thumbnail", "Fotka přednášejícího");
 
+	exportJSON();
 	
 	return false;
 }
+
+/////////////////////////////////////////////////////////////////////
+
+function formToJSON() {
+	return {
+		'title':		inputElem('title').value,
+		'subject':	inputElem('subject').value,
+		'target':		inputElem('target').value,
+		'duration':	inputElem('duration').value,
+		'annotation':		inputElem('annotation').value,
+		'authorName':	inputElem('author-name').value,
+		'authorDescription':	inputElem('author-description').value,
+		'background': 	inputElem('background').value,
+		'authorThumbnail':		inputElem('author-thumbnail').value,
+		'timestamp': 		new Date().toString()	
+	};
+}
+
+
+function jsonToForm(json) {
+	inputElem('title').value 		= json.title;
+	inputElem('subject').value	= json.subject;
+	inputElem('target').value		= json.target;
+	inputElem('duration').value	= json.duration;
+	inputElem('annotation').value		= json.annotation;
+	inputElem('author-name').value	= json.authorName;
+	inputElem('author-description').value = json.authorDescription;
+	inputElem('background').value		= json.background;
+	inputElem('author-thumbnail').value = json.authorThumbnail;
+}
+
+
+/////////////////////////////////////////////////////////////////////
+
+
 
 function transferText(idSpec, desc) {
 	var input = inputElem(idSpec);
@@ -69,6 +105,36 @@ function appendToOutput(value, desc) {
 
 	var text = desc + ":\n" + value + "\n\n";
 	output.value += text;
+}
+
+/////////////////////////////////////////////////////////////////////
+
+function exportJSON() {
+	var exportId = "export-json";
+	var exportElem = document.getElementById(exportId);
+
+	var json = formToJSON();
+	var str = JSON.stringify(json);
+
+	exportElem.value = str;
+}
+
+function importJSON() {
+	var importId = "import-json";
+	var importElem = document.getElementById(importId);
+
+	var str = importElem.value;
+	
+	var json;
+	try {
+		json = JSON.parse(str);
+	} catch(e) {
+		alert("Chybný formát dat: " + e);
+		return;
+	}
+
+	jsonToForm(json);
+	update();
 }
 
 /////////////////////////////////////////////////////////////////////
