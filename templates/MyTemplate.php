@@ -30,6 +30,9 @@ class MyTemplate extends StandartSPT {
     <h2><img id="main-logo" src="images/logo200.png" alt="UP Crowd"></h2>
   <?php }
 
+	protected function do_footer($apc) { ?>
+		Vytvořil <a href="http://martlins-web.tode.cz" target="_blank">m@rtlin</a>, pomocí <a href="https://github.com/martlin2cz/nanotube-cms" target="_blank">nanotube-cms</a>
+	<?php }
+ 
 }
-
 ?>
