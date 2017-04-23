@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<?php /* require_once("nezapomenout_odkomentovat.php"); */ ?>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		
+		<script type="text/javascript" src="js/scripts.js"></script>
+		<meta charset="UTF-8">
+		<!--		<meta name="viewport" content="width=device-width,initial-scale=1"> -->
+		<title>Generátor přednášek</title>
+	</head>
+	<body>
+
+		<h2>Údaje o přednáčce</h2>
+		<form onsubmit="return update()">
+			<label>Název vystoupení/přednášky</label>
+			<input type="text" id="input-title">
+
+			<label>Obor</label>
+			<input type="text" id="input-subject">
+			
+			<label>Cílovka</label>
+			<input type="text" id="input-target">
+				
+			<label>Délka</label>
+			<input type="text" id="input-duration">
+
+			<label>Anotace</label>
+			<textarea id="input-annotation"></textarea>
+				
+			<label>Obrázek na pozadí</label>
+			<input type="url" id="input-background">
+
+
+			<label>Jméno přednášejícího</label>
+			<input type="text" id="input-author-name">
+			
+			<label>O přednášejícím</label>
+			<textarea id="input-author-description"></textarea>
+				
+			<label>Náhledový obrázek</label>
+			<input type="url" id="input-author-thumbnail">
+			
+			<input type="button" value="Upravit" onclick="update()"/>
+		</form>
+
+		<h2>Náhled karty</h2>
+		<article id="output-panel">
+			<div id="output-background">
+				<span id="output-title">Moje super přednáška</span>
+				<div id="side-panel">
+					<span id="output-subject">Prostě věda</span>
+
+					<span id="output-target" class="output-target-and-duration">Vhodné pro SŠ</span>
+					<span id="output-duration" class="output-target-and-duration">45 min</span>
+					
+					<div id="output-annotation">
+						<div class="horizontaly-centered-content">
+							Nevím ani o čem budu přednášet, ale ono je to stejně jedno...
+						</div>
+					</div>
+					
+					<div id="author-panel">
+						<img src="img/no-photo.jpg" id="output-author-thumbnail">
+						<span id="output-author-name">Jan Novák</span>
+						<div id="output-author-description">
+							<div class="horizontaly-centered-content">
+								Jan Novák studuje ...
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</article>
+
+		<h2>K odeslání</h2>
+		<textarea id="to-send"></textarea>
+	</body>
+</html>
