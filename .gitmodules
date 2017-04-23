@@ -4,8 +4,8 @@
 [submodule "_new_2"]
 	path = _new_2
 	url = https://github.com/martlin2cz/nanotube-cms
-[submodule "_new_3/nanotube-cms"]
-	path = _new_3/nanotube-cms
+[submodule "nanotube-cms"]
+	path = nanotube-cms
 	url = https://github.com/martlin2cz/nanotube-cms
 [submodule "xmasgen"]
 	path = koledy
