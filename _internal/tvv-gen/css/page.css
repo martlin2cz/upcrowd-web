@@ -58,3 +58,10 @@ ul.input-posts {
 li.input-post {
 	list-style: none;
 }
+
+/**********************************************************/
+#output-canvas-wrapper {
+	width: 400px;
+	height: 400px;
+	overflow: auto;
+}

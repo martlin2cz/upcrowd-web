@@ -7,6 +7,8 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 		
 		<script type="text/javascript" src="js/scripts.js"></script>
+		<script type="text/javascript" src="js/html2canvas.js"></script>
+
 		<meta charset="UTF-8">
 		<!--		<meta name="viewport" content="width=device-width,initial-scale=1"> -->
 		<title>Generátor Týdne ve vědě</title>
@@ -62,8 +64,10 @@
 		</div>
 
 		<h2>Výstup</h2>
-		<p>Něco:</p>
-		
+		<p>Zde se objeví vygenerovaný obrázek. <ins>Ten však nepoužívej, nevypadá, jak má.</ins> <strong>Pro vytvoření výsledného obrázku použij Print screen předchozího náhledu.</strong> <del>Klikni na něj pravým tlačítkem myši a zvol "Uložit obrázek jako" (nebo tak něco, záleží na prohlížeči a jeho jazykové a genetické mutaci).</del></p>
+		<input type="button" value="Vygeneruj obrázek" onclick="return generateImage();">
+		<div id="output-canvas-wrapper"></div>
+
 		<!--
 		<h3>Export</h3>
 		<p>Kód zobrazený níže si zkopíruj a ulož, pro případné úpravy přednášky jej bude možné opět naimportovat vložením do panelu níže.</p>

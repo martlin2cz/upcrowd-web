@@ -25,6 +25,18 @@ function update() {
 	return false;
 }
 
+function generateImage() {
+	var source = document.getElementById("output-panel");
+	var target = document.getElementById("output-canvas-wrapper");
+	target.innerHTML = '';
+
+	html2canvas(source, {
+  	onrendered: function(canvas) {
+  	  target.appendChild(canvas);
+  	}
+	});
+}
+
 /////////////////////////////////////////////////////////////////////
 function cloneAsSibling(className, count) {
 	var items = document.getElementsByClassName(className);
