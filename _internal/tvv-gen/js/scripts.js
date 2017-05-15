@@ -2,26 +2,20 @@
 /////////////////////////////////////////////////////////////////////
 
 function update() {
-	clearOutput();
 
-	transferText("title", "Název přednášky");
-	transferText("subject", "Obor");
-	transferText("target", "Cílovka");
-	transferText("duration", "Délka");
-	transferText("annotation", "Anotace");
-	transferText("author-name", "Přednášející");
-	transferText("author-description", "O přednášejícím");
+	transferDate("date-from");
+	transferDate("date-to");
 
-	transferBgImage("background", "Obrázek na pozadí");
-	transferImage("author-thumbnail", "Fotka přednášejícího");
+	transferPost(1);
+	transferPost(2);
 
-	exportJSON();
+//	exportJSON();
 	
 	return false;
 }
 
 /////////////////////////////////////////////////////////////////////
-
+/*
 function formToJSON() {
 	return {
 		'title':		inputElem('title').value,
@@ -49,62 +43,36 @@ function jsonToForm(json) {
 	inputElem('background').value		= json.background;
 	inputElem('author-thumbnail').value = json.authorThumbnail;
 }
-
+*/
 
 /////////////////////////////////////////////////////////////////////
 
 
 
-function transferText(idSpec, desc) {
+function transferDate(idSpec) {
 	var input = inputElem(idSpec);
 	var output = outputElem(idSpec);
 
 	var value = input.value;
 	output.innerHTML = value;
-
-	appendToOutput(value, desc);
 }
 
-function transferBgImage(idSpec, desc) {
-	var input = inputElem(idSpec);
-	var output = outputElem(idSpec);
+function transferPost(index) {
+	var inputImg = inputElemClassed("post-image", index);
+	var inputTitle = inputElemClassed("post-title", index);
 
-	var value = input.value;
-	if (value == "") {
-		value = "img/no-bg.jpg";
+	var outputImg = outputElemClassed("post-image", index);
+	var outputTitle = outputElemClassed("post-title", index);
+
+	var img = inputImg.value;
+	if (img == "") {
+		img = "img/no-image.svg";
 	}
+	outputImg.src = img;
 
-	output.style.backroundImage = value;
+	var title = inputTitle.value;
+	outputTitle.innerHTML = title;
 
-	appendToOutput(value, desc);
-}
-
-function transferImage(idSpec, desc) {
-	var input = inputElem(idSpec);
-	var output = outputElem(idSpec);
-
-	var value = input.value;
-	if (value == "") {
-		value = "img/no-photo.jpg";
-	}
-	output.src = value;
-
-	appendToOutput(value, desc);
-}
-
-/////////////////////////////////////////////////////////////////////
-function clearOutput() {
-	var output = toSendElem();
-
-	output.value = "";
-
-}
-
-function appendToOutput(value, desc) {
-	var output = toSendElem();
-
-	var text = desc + ":\n" + value + "\n\n";
-	output.value += text;
 }
 
 /////////////////////////////////////////////////////////////////////
@@ -152,10 +120,20 @@ function outputElem(idSpec) {
 	return output;
 }
 
-function toSendElem() {
-	var outputId = "to-send";
-	var output = document.getElementById(outputId);
-	return output;
-
+function inputElemClassed(classSpec, index) {
+	var inputClass = "input-" + classSpec;
+	var inputs = document.getElementsByClassName(inputClass);
+	var input = inputs[index - 1];
+	return input;
 }
+
+function outputElemClassed(classSpec, index) {
+	var outputClass = "output-" + classSpec;
+	var outputs = document.getElementsByClassName(outputClass);
+	var output = outputs[index - 1];
+	return output;
+}
+
+
+
 	

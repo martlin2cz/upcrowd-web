@@ -1,16 +1,20 @@
-
+.panel {
+	background: #E0E0E0;
+	padding: 5px;
+	margin: 0.5% 0;
+}
 
 label {
-	display: block;
-	min-width: 20%;
-	float: left;
-	clear: both;
+	display: inline-block;
+/*	min-width: 20%;*/
 }
 
 input, textarea {
-	display: block;
-	padding: 5px;
-	margin: 1% 0.2eM;
+	display: inline-block;
+
+padding: 5px;
+	margin: 0.5% 0.2eM;
+	
 }
 /**********************************************************/
 
@@ -22,21 +26,30 @@ input[type="submit"] {
 	min-width: 10%;
 }
 
-input[type="url"] {
+
+input[type="text"] {
 	min-width: 40%;
 }
+
+
+input[type="url"] {
+	min-width: 10%;
+}
+
 /**********************************************************/
 
-textarea {
-	font-family: inherit;
-	min-width: 40%;
-	height: 4eM;
+
+
+.on-single-line {
+	display: block;
 }
 
-textarea.big {
-	height: 10eM;
+/**********************************************************/
+ul.input-posts {
+	padding: 0;
+	margin: 0.5% 0;
 }
 
-textarea.monospaced {
-	font-family: monospace;
+li.input-post {
+	list-style: none;
 }

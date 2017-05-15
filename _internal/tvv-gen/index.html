@@ -4,7 +4,7 @@
 		<link rel="stylesheet" type="text/css" href="css/page.css">
 		<link rel="stylesheet" type="text/css" href="css/card.css">
 		
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 		
 		<script type="text/javascript" src="js/scripts.js"></script>
 		<meta charset="UTF-8">
@@ -12,14 +12,28 @@
 		<title>Generátor Týdne ve vědě</title>
 	</head>
 	<body>
-		TODO
-<!--
-		<h2>Údaje o přednášce</h2>
-		<p>Vyplň údaje o přednáčce. Níže se zobrazí orientační náhled, jak bude karta vypadat. Dole jsou pak pole s textem k odeslání a případně importu a exportu. Ukázky přednášek jsou k nalezení v <a href="../../files/aktualni-katalog-prednasek.php">katalogu</a>.</p>
+		<h2>Týden ve vědě</h2>
 		<form onsubmit="return update()">
-			<label>Název přednášky</label>
-			<input type="text" id="input-title" onkeyup="update()">
+			<div class="panel">
+				<label>Týden od </label>
+				<input type="date" id="input-date-from" onkeyup="update()">
+				<label class="inline"> do </label>
+				<input type="date" id="input-date-to" onkeyup="update()">
+			</div>
+			
+			<p>Vlož pětici postů (obrázek a popis). U obrázku je nutné vložit kompletní URL. U popisu, pro zalomení v konkrétním místě vlož <code>&lt;br&gt;</code>, pro nezalomení patřičnou mezeru nahraď <code>&amp;nbsp;</code>.</p>
+			<ul class="input-posts">
+				<li class="input-post panel">
+					<input type="url" class="input-post-image" placeholder="http://něco.com/obrázek.jpg" onkeyup="update()">
+					<input type="text" class="input-post-title on-single-line" onkeyup="update()">
+				</li>
 
+				<li class="input-post panel">
+					<input type="url" class="input-post-image" placeholder="http://něco.com/obrázek.jpg" onkeyup="update()">
+					<input type="text" class="input-post-title on-single-line" onkeyup="update()">
+				</li>
+			</ul>
+<!--
 			<label>Obor</label>
 			<input type="text" id="input-subject" onkeyup="update()">
 			
@@ -44,44 +58,44 @@
 				
 			<label>Náhledový obrázek</label>
 			<input type="url" id="input-author-thumbnail" placeholder="http://já.cz/fotka.jpg" onkeyup="update()">
-			
+-->	
 			<input type="submit" value="Upravit" onclick="return update()"/>
 		</form>
 
 		<h2>Náhled karty</h2>
 		<article id="output-panel">
-			<div id="output-background">
-				<span id="output-title">Moje super přednáška</span>
-				<div id="side-panel">
-					<span id="output-subject">Prostě věda</span>
+			<header id="output-header">
+				<h3 id="output-tvv-heading">Týden ve vědě</h3>
+				<span id="output-dates">
+					<datetime id="output-date-from">včera</datetime> 
+					<span> - </span> 
+					<datetime id="output-date-to">dnes</datetime>
+				</span>
+				<span id="output-vedator-fb-link">
+					<img src="img/fb-logo.svg" alt="fb" id="output-vedator-fb-img">
+					<span id="output-vedator-fb-link-text">
+						VedatorCZ
+					</span>
+				</span>
+			</header>
 
-					<span id="output-target" class="output-target-and-duration">Vhodné pro SŠ</span>
-					<span id="output-duration" class="output-target-and-duration">45 min</span>
-					
-					<div id="output-annotation">
-						<div class="horizontaly-centered-content">
-							Nevím ani o čem budu přednášet, ale ono je to stejně jedno...
-						</div>
-					</div>
-					
-					<div id="author-panel">
-						<img src="img/no-photo.jpg" id="output-author-thumbnail">
-						<span id="output-author-name">Jan Novák</span>
-						<div id="output-author-description">
-							<div class="horizontaly-centered-content">
-								Jan Novák studuje ...
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+			<ul id="output-posts">
+				<li class="output-post">
+					<img src="img/no-image.svg" class="output-post-image" alt="img">
+					<span class="output-post-title">Něco</span>
+				</li>
+
+				<li class="output-post">
+					<img src="img/no-image.svg" class="output-post-image" alt="img">
+					<span class="output-post-title">Něco</span>
+				</li>
+			</ul>				
 		</article>
 
 		<h2>Výstup</h2>
-		<h3>Odeslat</h3>
-		<p>Text zobrazený níže zkopírujte do e-mailu a pošli správci přednášek.</p>
-		<textarea id="to-send" class="big"></textarea>
-
+		<p>Něco:</p>
+		
+		<!--
 		<h3>Export</h3>
 		<p>Kód zobrazený níže si zkopíruj a ulož, pro případné úpravy přednášky jej bude možné opět naimportovat vložením do panelu níže.</p>
 		<textarea id="export-json" class="monospaced"></textarea>
@@ -89,6 +103,6 @@
 		<h3>Import</h3>
 		<p>Kód z předchozího panelu vlož sem, naimportuje se do formuláře.</p>
 		<textarea id="import-json" class="monospaced" onchange="importJSON()"></textarea>
--->	
+		-->	
 	</body>
 </html>

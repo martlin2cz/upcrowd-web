@@ -1,118 +1,70 @@
 /*
-	colors: TODO
+	colors: ff4e00 (orange), 000c40 (blue), ffffff (white, obviously)
 	font size: 1.18 * height of M (in mm)
 	element height: 1.2 * font size (in mm)
 */
 
-input, label, textarea {
-	display: block;
-}
-
-
-.horizontaly-centered-content {
-	display: block;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-}
-
-/******************************************************************************/
-
-
 #output-panel {
+	display: block;
+	width: 960px;
+	height: 960px;
+
+	font-family: 'Roboto Slab', sans-serif;
+}
+
+
+
+
+#output-header {
+	height: 140px;
+	background-color: #fe4c02;
+
+}
+
+
+/********************************************************************/
+#output-tvv-heading {
+	color: #000c40;
+	font-size: 60px;
+	float: left;
+	text-transform: uppercase;
+}
+
+#output-dates, #output-vedator-fb-link {
 	color: #ffffff;
-	font-family: 'Open Sans', sans-serif;
-	text-align: center;
-}
-
-#output-background {
-	width: 20.90cm;
-	height: 14.80cm;
-	background-image: url('../img/no-bg.jpg');
-	background-size: cover;
-}
-
-#output-title {
 	display: block;
-	background-color: #000c40;
-	height: 1.15cm; /* 1.6cm */
-	padding: 2.0mm 0mm 2.5mm; /* top 4mm, bottom 4.5mm */
-	font-size: 8.5mm;
-	font-weight: bold;
+	font-size: 22px;
 }
 
-#side-panel {
-	float: right;
-	width: 10.50cm;
+#output-vedator-fb-img {
+	height: 1em;
 }
 
-#output-subject {
-  display: block;
-  background-color: #d14507;
-  width: 10.50cm;
-  height: 0.6cm; /* 0.9cm */
-	padding: 1.5mm 0mm 1.5mm; /* top 2.5mm, bottom 2.5mm */
-	font-size: 4mm;
-	margin-top: 0.15cm;
-	text-transform: uppercase;
+
+/********************************************************************/
+#output-posts {
+	padding: 0;
+	margin: 0;
+	list-style: none;
 }
 
-.output-target-and-duration {
-  display: inline-block;
-  background-color: #000000;
-  height: 0.6cm; /* 0.7cm */
-	padding: 0.5mm 0mm 0.5mm; /* top 1.5mm, bottom 1.5mm */
-	font-size: 4.5mm;
-	margin-top: 0.15cm;
-	font-style: italic;
+.output-post {
+	clear: both;
 }
 
-#output-target {
-	width: 5.30cm;
-	margin-right: 0.5mm; 
-}
- 
-#output-duration {
-	width: 5.00cm;
+.output-post-image {
+	width: 120px;
+	float: left;
 }
 
-#output-annotation {
-  display: block;
-  background-color: #000000;
-  height: 7.4cm;  /* dynamic height, no padding */
-	padding: 0mm 5mm 0mm 5mm;
-	font-size: 4.0mm; 
-	margin-top: 0.15cm;
-	text-align: justify;
-}
-
-#author-panel {
-  display: block;
-  background-color: #000000;
-  height: 3.6cm;
-	margin-top: 0.15cm;
-}
-
-#output-author-name {
+.output-post-title {
 	display: block;
-	height: 0.4cm; /* 8mm */ 
-	padding: 0.5mm 0mm 2mm;
-	font-size: 5.0mm;
-	text-transform: uppercase;
+	font-size: 31px;
 }
 
-#output-author-description {
-	display: block;
-	height: 2.1cm; /* dynamic height, no padding */
-	font-size: 4.0mm;
-}
 
-#output-author-thumbnail {
-	display: block;
-	float: right;
-	max-width: 2.4cm;
-	max-height: 3.2cm;
-	margin: 2mm;
-}
+/********************************************************************/
+
+
 
 
