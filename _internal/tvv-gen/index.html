@@ -11,7 +11,7 @@
 		<!--		<meta name="viewport" content="width=device-width,initial-scale=1"> -->
 		<title>Generátor Týdne ve vědě</title>
 	</head>
-	<body>
+	<body onload="return initialize()">
 		<h2>Týden ve vědě</h2>
 		<form onsubmit="return update()">
 			<div class="panel">
@@ -25,44 +25,20 @@
 			<ul class="input-posts">
 				<li class="input-post panel">
 					<input type="url" class="input-post-image" placeholder="http://něco.com/obrázek.jpg" onkeyup="update()">
-					<input type="text" class="input-post-title on-single-line" onkeyup="update()">
-				</li>
-
-				<li class="input-post panel">
-					<input type="url" class="input-post-image" placeholder="http://něco.com/obrázek.jpg" onkeyup="update()">
+					<input type="checkbox" class="input-post-crop" checked="true" onchange="update()"><label>Zakulatit</label>
 					<input type="text" class="input-post-title on-single-line" onkeyup="update()">
 				</li>
 			</ul>
-<!--
-			<label>Obor</label>
-			<input type="text" id="input-subject" onkeyup="update()">
-			
-			<label>Cílovka</label>
-			<input type="text" id="input-target" placeholder="Vhodné pro ZŠ/SŠ/VŠ" onkeyup="update()">
-				
-			<label>Délka</label>
-			<input type="text" id="input-duration" placeholder="20/30/45/60/90 min" onkeyup="update()">
+			<div class="panel">
+				<p>Toto místo slouží jako odkladiště při přeskládávání postů:</p>
+				<textarea></textarea>
+			</div>
 
-			<label>Anotace</label>
-			<textarea id="input-annotation" class="big" onkeyup="update()"></textarea>
-				
-			<label>Obrázek na pozadí</label>
-			<input type="url" id="input-background" placeholder="http://něco.com/obrázek.jpg" onkeyup="update()">
-
-
-			<label>Jméno přednášejícího</label>
-			<input type="text" id="input-author-name" onkeyup="update()">
-			
-			<label>O přednášejícím</label>
-			<textarea id="input-author-description" onkeyup="update()"></textarea>
-				
-			<label>Náhledový obrázek</label>
-			<input type="url" id="input-author-thumbnail" placeholder="http://já.cz/fotka.jpg" onkeyup="update()">
--->	
 			<input type="submit" value="Upravit" onclick="return update()"/>
 		</form>
 
-		<h2>Náhled karty</h2>
+		<h2>Náhled obrázku</h2>
+		<div class="panel">
 		<article id="output-panel">
 			<header id="output-header">
 				<h3 id="output-tvv-heading">Týden ve vědě</h3>
@@ -72,25 +48,18 @@
 					<datetime id="output-date-to">dnes</datetime>
 				</span>
 				<span id="output-vedator-fb-link">
-					<img src="img/fb-logo.svg" alt="fb" id="output-vedator-fb-img">
-					<span id="output-vedator-fb-link-text">
-						VedatorCZ
-					</span>
+					<img src="img/fb-logo.svg" alt="fb" id="output-vedator-fb-img"><span id="output-vedator-fb-link-text">VedatorCZ</span>
 				</span>
 			</header>
 
 			<ul id="output-posts">
 				<li class="output-post">
-					<img src="img/no-image.svg" class="output-post-image" alt="img">
-					<span class="output-post-title">Něco</span>
-				</li>
-
-				<li class="output-post">
-					<img src="img/no-image.svg" class="output-post-image" alt="img">
-					<span class="output-post-title">Něco</span>
+					<img src="img/no-image.svg" class="output-post-image horizontaly-centered-content" alt="no-image">
+					<span class="output-post-title horizontaly-centered-content">Lorem Ipsum Dolor Sit Amet.</span>
 				</li>
 			</ul>				
 		</article>
+		</div>
 
 		<h2>Výstup</h2>
 		<p>Něco:</p>

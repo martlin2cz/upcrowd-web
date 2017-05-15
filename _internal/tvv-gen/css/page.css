@@ -36,6 +36,11 @@ input[type="url"] {
 	min-width: 10%;
 }
 
+input[type="checkbox"] {
+	min-width: 2eM;
+}
+
+
 /**********************************************************/
 
 

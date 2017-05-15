@@ -1,13 +1,24 @@
-
+var POSTS_COUNT = 6;
 /////////////////////////////////////////////////////////////////////
+
+function initialize() {
+	cloneAsSibling("input-post", POSTS_COUNT);
+	cloneAsSibling("output-post", POSTS_COUNT);
+
+	putDate("date-from", -6);
+	putDate("date-to", 0);
+
+}
+
 
 function update() {
 
-	transferDate("date-from");
-	transferDate("date-to");
+	transferDate("date-from", false);
+	transferDate("date-to", true);
 
-	transferPost(1);
-	transferPost(2);
+	for (i = 1; i <= POSTS_COUNT; i++) {
+		transferPost(i);
+	}
 
 //	exportJSON();
 	
@@ -15,6 +26,31 @@ function update() {
 }
 
 /////////////////////////////////////////////////////////////////////
+function cloneAsSibling(className, count) {
+	var items = document.getElementsByClassName(className);
+
+//	for (i = 0; i < items.length; i++) {
+		var item = items[0]; // [i]
+		var parentNode = item.parentNode;
+		for (j = 1; j < count; j++) {
+			var copy = item.cloneNode(true);
+			parentNode.appendChild(copy);
+		}
+//	}
+}
+
+function putDate(inputIdSpec, daysAfter) {
+	var input = inputElem(inputIdSpec);
+
+	var date = new Date();
+	date.setDate(date.getDate() + daysAfter);
+
+	input.valueAsDate = date;
+}
+
+
+/////////////////////////////////////////////////////////////////////
+
 /*
 function formToJSON() {
 	return {
@@ -49,17 +85,26 @@ function jsonToForm(json) {
 
 
 
-function transferDate(idSpec) {
+function transferDate(idSpec, withYear) {
 	var input = inputElem(idSpec);
 	var output = outputElem(idSpec);
 
-	var value = input.value;
-	output.innerHTML = value;
+	var value = input.valueAsDate;
+	var text = "";
+	if (value) {
+		text = 
+			(value.getDate()) + "." +
+			(value.getMonth() + 1) + "." + 
+			(withYear ? value.getFullYear() : '');
+	}
+
+	output.innerHTML = text;
 }
 
 function transferPost(index) {
 	var inputImg = inputElemClassed("post-image", index);
 	var inputTitle = inputElemClassed("post-title", index);
+	var inputCrop = inputElemClassed("post-crop", index);
 
 	var outputImg = outputElemClassed("post-image", index);
 	var outputTitle = outputElemClassed("post-title", index);
@@ -73,6 +118,12 @@ function transferPost(index) {
 	var title = inputTitle.value;
 	outputTitle.innerHTML = title;
 
+	if (inputCrop.checked) {
+		outputImg.classList.add("rounded");
+	} else {
+		outputImg.classList.remove("rounded");
+	}
+	
 }
 
 /////////////////////////////////////////////////////////////////////
