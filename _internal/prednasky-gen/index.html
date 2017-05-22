@@ -15,6 +15,7 @@
 
 		<h2>Údaje o přednášce</h2>
 		<p>Vyplň údaje o přednáčce. Níže se zobrazí orientační náhled, jak bude karta vypadat. Dole jsou pak pole s textem k odeslání a případně importu a exportu. Ukázky přednášek jsou k nalezení v <a href="../../files/aktualni-katalog-prednasek.php">katalogu</a>.</p>
+		<p><em>Pozn.:</em> obrázek na pozadí (u fotky přednášejícího se to předpokládá) musí být se svobodnou licencí, tedy s povoleným opětovným použitím.</p>
 		<form onsubmit="return update()">
 			<label>Název přednášky</label>
 			<input type="text" id="input-title" onkeyup="update()">
@@ -41,7 +42,7 @@
 			<label>O přednášejícím</label>
 			<textarea id="input-author-description" onkeyup="update()"></textarea>
 				
-			<label>Náhledový obrázek</label>
+			<label>Fotka přednášejícího</label>
 			<input type="url" id="input-author-thumbnail" placeholder="http://já.cz/fotka.jpg" onkeyup="update()">
 			
 			<input type="submit" value="Upravit" onclick="return update()"/>
@@ -78,7 +79,7 @@
 
 		<h2>Výstup</h2>
 		<h3>Odeslat</h3>
-		<p>Text zobrazený níže zkopírujte do e-mailu a pošli správci přednášek.</p>
+		<p>Text zobrazený níže zkopíruj do e-mailu a pošli správci přednášek.</p>
 		<textarea id="to-send" class="big"></textarea>
 
 		<h3>Export</h3>

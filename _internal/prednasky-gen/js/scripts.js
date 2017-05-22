@@ -74,7 +74,7 @@ function transferBgImage(idSpec, desc) {
 		value = "img/no-bg.jpg";
 	}
 
-	output.style.backroundImage = value;
+	output.style.backgroundImage = "url('" + value+ "')";
 
 	appendToOutput(value, desc);
 }
