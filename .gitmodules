@@ -7,3 +7,6 @@
 [submodule "xmasgen"]
 	path = koledy
 	url = ssh://57df9aab89f5cf64df0000fe@xmasgen-martlins.rhcloud.com/~/git/xmasgen.git/
+[submodule "_internal/online-image-cropper"]
+	path = _internal/online-image-cropper
+	url = https://github.com/martlin2cz/online-image-cropper
