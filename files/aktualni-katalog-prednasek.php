@@ -1,3 +1,3 @@
 <?php
-	header("Location: " . "UPC-Katalog-16-17-V2.pdf");
+	header("Location: " . "UPC-Katalog-16-17-V3.pdf");
 
