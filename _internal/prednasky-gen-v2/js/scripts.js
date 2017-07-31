@@ -31,20 +31,19 @@ function processIt() {
 function generateOutputs() {
 	var data = streeting.inferData(FORM_ID);
 
-	exportJson(data);
+	exportJson();
 	exportPlain(data);
 }
 
 function performImport() {
-	var data = importJson();
-	//FIXME here: streeting.dataToForm(data);
+	importJson();
 
 	processIt();
 }
 
 
-function exportJson(data) {
-	var str = JSON.stringify(data);
+function exportJson() {
+	var str = streeting.exportToJson(FORM_ID);
 
 	var output = document.getElementById('export-json');
 	output.value = str;
@@ -62,21 +61,13 @@ function exportPlain(data) {
 
 	var output = document.getElementById('to-send');
 	output.value = result;
-	//TODO
 }
 
 function importJson() {
 	var input = document.getElementById('import-json');
 	var str = input.value;
 
-	var data;
-	try {
-		data = JSON.parse(str);
-	} catch (e) {
-		alert("Data jsou poškozena");
-	}
-
-	return data;
+	streeting.importFromJson(FORM_ID, str);
 }
 
 
