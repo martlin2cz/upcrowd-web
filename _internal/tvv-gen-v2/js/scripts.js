@@ -3,13 +3,13 @@ var POSTS_COUNT = 6;
 var templateName = 'template-1.svg';
 var template = 'templates/' + templateName;                                                                                            
 
+var NO_IMAGE_URL = 'img/no-image.svg';
 var FORM_ID = 'inputs-form';
 /////////////////////////////////////////////////////////////////////
 
 function initialize() {
 	cloneAsSibling("input-post", POSTS_COUNT);
 	setupAtts();
-	setupCropperLinks();
 
 	putDate("date-from", -6);
 	putDate("date-to", 0);
@@ -28,36 +28,54 @@ function initialize() {
 }
 
 function updateComplete() {
-  var links = streeting.process('output-svg', FORM_ID);
-
-	var svgLink = links.svg;
-	
-	var link = document.getElementById('output-link');
-	link.href = svgLink;
-}
-
-function updateOne(event) {
-	var sender = event.target;
-  
-	streeting.processUpdate('output-svg', sender, function(link) {
+  streeting.process('output-svg', FORM_ID, function(link) {
 		var outlink = document.getElementById('output-link');
 		outlink.href = link;
 	});
 }
 
+function updateOne(event) {
+	var sender = event.target;
+  
+	streeting.processUpdate('output-svg', sender, null);
+}
+
 function promptImage(event) {
 	var source = event.target;
 	var input = source.previousElementSibling;
+	var url = input.value;	
 
-	var url = prompt('Zadej adresu obrázku');
+	url = prompt('Zadej adresu obrázku', url);
 	if (url) {
 		input.value = url;
+
+		updateCropperLink(input);
 
 		var evtHack = { 'target': input };
 		updateOne(evtHack);
 	}
 }
+
+function updateCropperLink(input) {
+	var link = input.nextElementSibling.nextElementSibling;
+
+	var url = input.value;	
+	link.href = "../online-image-cropper/?img=" + url;
+}
+
+
 /////////////////////////////////////////////////////////////////////
+
+function imageProcessor(id, elem, value) {
+	if (!value) {
+		value = NO_IMAGE_URL;
+	}
+
+	elem.setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', value);
+}
+
+/////////////////////////////////////////////////////////////////////
+
 function cloneAsSibling(className, count) {
 	var items = document.getElementsByClassName(className);
 
@@ -86,22 +104,6 @@ function setupAtts() {
 			iPost++;
 		} 
 	});	
-}
-
-function setupCropperLinks() {
-	var inputs = document.getElementsByClassName('input-post-image');
-	
-	for (var i = 0; i < inputs.length; i++) {
-		var input = inputs[i];
-		
-		input.addEventListener('input', function(e) {
-			var input = e.target;
-			var link = input.nextElementSibling.nextElementSibling;
-
-			var url = input.value;	
-			link.href = "../online-image-cropper/?img=" + url;
-		});
-	}
 }
 
 function putDate(inputIdSpec, daysAfter) {

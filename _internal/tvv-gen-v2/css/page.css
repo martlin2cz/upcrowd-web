@@ -26,6 +26,9 @@ input[type="submit"] {
 	min-width: 10%;
 }
 
+input[type="button"] {
+	min-width: 10%;
+}
 
 input[type="text"] {
 	min-width: 40%;

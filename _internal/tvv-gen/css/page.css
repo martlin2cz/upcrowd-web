@@ -4,6 +4,13 @@
 	margin: 0.5% 0;
 }
 
+.warning-panel {
+	font-size: 200%;
+	background-color: #FFD080;
+	color: #A02000;
+	padding: 1eM;
+}
+
 label {
 	display: inline-block;
 /*	min-width: 20%;*/

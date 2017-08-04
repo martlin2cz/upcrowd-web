@@ -21,15 +21,16 @@
 	<body onload="return initialize()">
 		
 		<h2>Týden ve vědě</h2>
+		
 		<form id="inputs-form">
 			<div class="panel">
 				<label>Týden od </label>
 				<input type="date" id="input-date-from" 
-					data-streeting-id="output-date-from" data-streeting-processor="streeting.shortDateProcessor">
+					data-streeting-id="output-date-from" data-streeting-processor="streeting.dateProcessor.short">
 				
 				<label class="inline"> do </label>
 				<input type="date" id="input-date-to"
-					data-streeting-id="output-date-to" data-streeting-processor="streeting.fullDateProcessor">
+					data-streeting-id="output-date-to" data-streeting-processor="streeting.dateProcessor.full">
 
 			</div>
 			
@@ -40,14 +41,14 @@
 					<input type="url" class="input-post-image" placeholder="http://něco.com/obrázek.jpg" 
 						data-streeting-id="output-post-image" data-streeting-attr="xlink:href">
 					-->
-					<input type="hidden" class="input-post-image" 
-						data-streeting-id="output-post-image" data-streeting-attr="xlink:href">
-					
+					<input type="hidden" class="input-post-image" value="img/no-image.svg" 
+						data-streeting-id="output-post-image" data-streeting-processor="imageProcessor">
+					<!-- data-streeting-attr="xlink:href" -->
 					<input type="button" class="input-post-image-button" value="Vložit obrázek" onclick="promptImage(event)">
 
 					<a href="../online-image-cropper" target="_blank">Oříznout</a>
 					<input type="text" class="input-post-title on-single-line" placeholder="Američtí vědci zjistili, že ..." 
-					data-streeting-id="output-post" data-streeting-processor="multilinedTextProcessor">
+					data-streeting-id="output-post" data-streeting-processor="streeting.multilinedTextProcessor.centerAligned">
 				</li>
 			</ul>
 			<div class="panel">
@@ -55,10 +56,11 @@
 				<textarea></textarea>
 			</div>
 
-			<input type="submit" value="Upravit" onclick="return update()"/>
+			<input type="submit" value="Upravit obrázek" />
 		</form>
 
 		<h2>Náhled obrázku</h2>
+		<p>Pozor, toto je jen náhled. Pro vygenerování výsledného obrázku je nutné kliknout na tlačítko výše.</p>
 		<div class="panel">
 			<svg id="output-svg">
 				<text>Náhled</text>
