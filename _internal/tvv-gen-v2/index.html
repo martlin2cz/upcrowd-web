@@ -9,6 +9,9 @@
 		<script type="text/javascript" src="streeting/js/lib/streeting/streeting.js"></script>                                             
 		<script type="text/javascript" src="streeting/js/lib/streeting/extras.js"></script>
 
+		<script type="text/javascript" src="../online-image-cropper/js/core.js"></script>
+		<script type="text/javascript" src="../online-image-cropper/js/converts.js"></script>
+
 		<script type="text/javascript" src="js/scripts.js"></script>
 
 		<meta charset="UTF-8">
@@ -30,11 +33,18 @@
 
 			</div>
 			
-			<p>Vlož pětici postů (obrázek a popis). U obrázku je nutné vložit kompletní URL, je možné použít <a href="../online-image-cropper">online-image-cropper</a> pro jednoduché oříznutí a případně zakulacení rohů. U popisu je nutné ručně zalamovat text vložením <code>&lt;br&gt;</code>.</p>
+			<p>Vlož pětici postů (obrázek a popis). U obrázku je nutné vložit kompletní URL, je možné použít <a href="../online-image-cropper" target="blank">online-image-cropper</a> pro jednoduché oříznutí a případně zakulacení rohů. U popisu je nutné ručně zalamovat text vložením <code>&lt;br&gt;</code>.</p>
 			<ul class="input-posts">
 				<li class="input-post panel">
+					<!--
 					<input type="url" class="input-post-image" placeholder="http://něco.com/obrázek.jpg" 
 						data-streeting-id="output-post-image" data-streeting-attr="xlink:href">
+					-->
+					<input type="hidden" class="input-post-image" 
+						data-streeting-id="output-post-image" data-streeting-attr="xlink:href">
+					
+					<input type="button" class="input-post-image-button" value="Vložit obrázek" onclick="promptImage(event)">
+
 					<a href="../online-image-cropper" target="_blank">Oříznout</a>
 					<input type="text" class="input-post-title on-single-line" placeholder="Američtí vědci zjistili, že ..." 
 					data-streeting-id="output-post" data-streeting-processor="multilinedTextProcessor">
