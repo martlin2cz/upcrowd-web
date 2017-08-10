@@ -40,3 +40,11 @@ textarea.big {
 textarea.monospaced {
 	font-family: monospace;
 }
+
+/******************************************************************************/
+.warning-panel {
+	font-size: 200%;
+	background-color: #FFD080;
+	color: #A02000;
+	padding: 1eM;
+}
