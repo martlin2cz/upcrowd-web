@@ -24,19 +24,23 @@ function initialize() {
   streeting.initialize('output-svg', template);
   streeting.makeSourceInteractive(FORM_ID, updateOne);
 
-
+	this.updateComplete();
 }
 
 function updateComplete() {
+	try {
   streeting.process('output-svg', FORM_ID, function(link) {
 		var outlink = document.getElementById('output-link');
 		outlink.href = link;
 	});
+	} catch (e) {
+		alert("Chyba, " + JSON.stringify(e));
+	}
 }
 
 function updateOne(event) {
 	var sender = event.target;
-  
+
 	streeting.processUpdate('output-svg', sender, null);
 }
 
@@ -62,7 +66,6 @@ function updateCropperLink(input) {
 	var url = input.value;	
 	link.href = "../online-image-cropper/?img=" + url;
 }
-
 
 /////////////////////////////////////////////////////////////////////
 
