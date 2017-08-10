@@ -20,6 +20,8 @@
 		<h2>Údaje o přednášce</h2>
 		<p>Vyplň údaje o přednáčce. Níže se zobrazí orientační náhled, jak bude karta vypadat. Dole jsou pak pole s textem k odeslání a případně importu a exportu. Ukázky přednášek jsou k nalezení v <a href="../../files/aktualni-katalog-prednasek.php">katalogu</a>.</p>
 		<p><em>Pozn.:</em> obrázek na pozadí (u fotky přednášejícího se to předpokládá) musí být se svobodnou licencí, tedy s povoleným opětovným použitím.</p>
+		<p>Pro ořez obrázku je možné použít <a href="../online-image-cropper" target="_blank">online-image-cropper</a>. Ten také umožňuje vložení obrázku kopírováním pokud obrázek nepodporuje vkládání přes URL adresu.</p>
+
 		<form id="prednaska-form">
 			<label>Název přednášky</label>
 			<input type="text" id="input-title" data-streeting-id="output-title">
@@ -34,18 +36,17 @@
 			<input type="text" id="input-duration" placeholder="20/30/45/60/90 min" data-streeting-id="output-duration">
 
 			<label>Anotace</label>
-			<textarea id="input-annotation" class="big" data-streeting-id="output-anotation"></textarea>
+			<textarea id="input-annotation" class="big" data-streeting-id="output-anotation" data-streeting-processor="streeting.multilinedTextProcessor.topAligned"></textarea>
 				
 			<label>Obrázek na pozadí</label>
 			<input type="url" id="input-background" placeholder="http://něco.com/obrázek.jpg"
 				data-streeting-id="output-background" data-streeting-attr="xlink:href">
 
-
 			<label>Jméno přednášejícího</label>
 			<input type="text" id="input-author-name" data-streeting-id="output-author-name">
 			
 			<label>O přednášejícím</label>
-			<textarea id="input-author-description" data-streeting-id="output-author-description"></textarea>
+			<textarea id="input-author-description" data-streeting-id="output-author-description" data-streeting-processor="streeting.multilinedTextProcessor.topAligned"></textarea>
 				
 			<label>Fotka přednášejícího</label>
 			<input type="url" id="input-author-thumbnail" placeholder="http://já.cz/fotka.jpg" 
