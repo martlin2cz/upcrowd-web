@@ -1,6 +1,6 @@
-var POSTS_COUNT = 6;
+var POSTS_COUNT = 5;
 
-var templateName = 'template-1.svg';
+var templateName = 'template-2.svg';
 var template = 'templates/' + templateName;                                                                                            
 
 var NO_IMAGE_URL = 'img/no-image.svg';

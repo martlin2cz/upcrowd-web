@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="800"
+   height="600"
+   id="svg2"
+   inkscape:label="Pozadí"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="template-0.svg">
+  <defs
+     id="defs3">
+    <linearGradient
+       id="linearGradient4072">
+      <stop
+         style="stop-color:#182fbf;stop-opacity:1;"
+         offset="0"
+         id="stop4074" />
+      <stop
+         style="stop-color:#cd770c;stop-opacity:1;"
+         offset="1"
+         id="stop4076" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4072-5">
+      <stop
+         id="stop4074-3"
+         offset="0"
+         style="stop-color:#182fbf;stop-opacity:1;" />
+      <stop
+         id="stop4076-5"
+         offset="1"
+         style="stop-color:#cd770c;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="600"
+       x2="374.28571"
+       y1="0"
+       x1="374.28571"
+       id="linearGradient4078-7"
+       xlink:href="#linearGradient4072-5"
+       inkscape:collect="always" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#cbece6"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.9899495"
+     inkscape:cx="486.44918"
+     inkscape:cy="224.05844"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="719"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="true"
+     inkscape:snap-page="true" />
+  <metadata
+     id="metadata6">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Vrstva 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-452.36217)">
+    <image
+       sodipodi:absref="/home/martin/public_html/upcrowd/_internal/dvv-gen/templates/img/no-image.png"
+       xlink:href="img/no-image.png"
+       inkscape:label="#image4448"
+       width="800"
+       height="599.70013"
+       id="background"
+       x="0"
+       y="452.36218" />
+    <rect
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;opacity:0.8"
+       id="rect3232"
+       width="400"
+       height="300"
+       x="200"
+       y="602.36218" />
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:TeX Gyre Bonum Math;-inkscape-font-specification:TeX Gyre Bonum Math"
+       x="399.72467"
+       y="640.90826"
+       id="text4034"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="399.72467"
+         y="640.90826"
+         id="tspan4036">DNES VE VĚDĚ<tspan
+   x="399.72467"
+   y="640.90826"
+   id="tspan4038"
+   style="font-size:36px;fill:#ffffff;fill-opacity:1" /></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:TeX Gyre Bonum Math;-inkscape-font-specification:TeX Gyre Bonum Math"
+       x="399.51685"
+       y="670.72266"
+       id="the-date"
+       sodipodi:linespacing="125%"
+       inkscape:label="#the-date"><tspan
+         sodipodi:role="line"
+         x="399.51685"
+         y="670.72266"
+         id="tspan4042"><tspan
+           x="399.51685"
+           y="670.72266"
+           id="tspan4044"
+           style="font-size:22px;fill:#ffffff;fill-opacity:1">dneska</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:small-caps;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:TeX Gyre Bonum Math;-inkscape-font-specification:TeX Gyre Bonum Math"
+       x="402.60626"
+       y="764.89624"
+       id="heading-text"
+       sodipodi:linespacing="125%"
+       inkscape:label="#heading-text"><tspan
+         sodipodi:role="line"
+         x="402.60626"
+         y="764.89624"
+         id="tspan4048"><tspan
+           x="402.60626"
+           y="764.89624"
+           id="tspan4050"
+           style="fill:#ffffff;fill-opacity:1">Vědci objevili ...</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="402.60626"
+         y="764.89624"
+         id="tspan4052"><tspan
+           x="422.60626"
+           y="814.89624"
+           id="tspan4054"
+           style="fill:#ffffff;fill-opacity:1" /></tspan></text>
+    <text
+       inkscape:label="#heading-text"
+       sodipodi:linespacing="125%"
+       id="paragraph-text"
+       y="857.25568"
+       x="402.60626"
+       style="font-size:24px;font-style:normal;font-variant:small-caps;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:TeX Gyre Bonum Math;-inkscape-font-specification:TeX Gyre Bonum Math"
+       xml:space="preserve"><tspan
+         id="tspan4189"
+         y="857.25568"
+         x="402.60626"
+         sodipodi:role="line"><tspan
+           style="font-size:24px;fill:#ffffff;fill-opacity:1"
+           id="tspan4191"
+           y="857.25568"
+           x="402.60626">... něco super</tspan></tspan><tspan
+         id="tspan4193"
+         y="857.25568"
+         x="402.60626"
+         sodipodi:role="line"><tspan
+           style="font-size:24px;fill:#ffffff;fill-opacity:1"
+           id="tspan4195"
+           y="907.25568"
+           x="422.60626" /></tspan></text>
+  </g>
+</svg>

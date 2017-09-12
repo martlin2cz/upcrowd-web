@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="streeting/js/lib/streeting/streeting.js"></script>
+		<script type="text/javascript" src="streeting/js/lib/streeting/extras.js"></script>
+	
+		<script type="text/javascript" src="js/scripts.js"></script>
+
+		<!-- link to oic (allows output to bitmap) -->
+		<script type="text/javascript" src="../online-image-cropper/js/core.js"></script>
+		<script type="text/javascript" src="../online-image-cropper/js/converts.js"></script>
+
+
+		<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+		<meta charset="UTF-8">
+		<title>Generátor "Dnes ve vědě"</title>
+	</head>
+
+	<body onload="prepare()">
+		<section>
+			<form id="the-form">	
+				<label>Datum:</label>
+				<input type="date" id="input-date" value=""
+					data-streeting-id="the-date" data-streeting-processor=" streeting.dateProcessor.full">
+
+				<label>Nadpis:</label>
+				<input type="text" data-streeting-id="heading-text" value="Vědci objevili<br>something," 
+					data-streeting-processor="streeting.multilinedTextProcessor.centerAligned">
+	
+				<label>Text:</label>
+				<input type="text" data-streeting-id="paragraph-text" value="Something 'bout something,<br>menším fontem a trochu<br>odsazené od vrchu" 
+					data-streeting-processor="streeting.multilinedTextProcessor.centerAligned">
+	
+				<label>Obrázek na pozadí:</label>
+				<input type="url" data-streeting-id="background" data-streeting-attr="xlink:href" value="img/no-image.png">
+				
+				<p>Pro nahrání obrázku počítače použij <a href="https://dopiaza.org/tools/datauri/index.php" target="_blank">data:uri Generator</a>. Případně použij <a href="../online-image-cropper/" target="_blank">online-image-cropper</a>.</p>
+
+				<input type="button" value="Aktualizovat!" onclick="processIt()">
+
+			</form>
+		</section>
+		
+		<section>
+			<svg id="the-svg">
+				<text>Načítá se šablona. Pokud trvá moc dlouho, něco se pokazilo.</text>
+			</svg>
+		</section>
+
+		<section>
+			<output>Stáhnout obrázek:</output>
+			<a href="" id="the-result-link">zde</a>
+		</section>
+
+	</body>
+</html>

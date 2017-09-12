@@ -1,0 +1,33 @@
+
+
+label {
+	display: block;
+	min-width: 20%;
+	float: left;
+	clear: both;
+}
+
+input, textarea {
+	display: block;
+	padding: 5px;
+	margin: 1% 0.2eM;
+}
+/**********************************************************/
+
+input {
+	min-width: 40%;
+}
+
+input[type="submit"] {
+	min-width: 10%;
+}
+
+input[type="button"] {
+	min-width: 10%;
+}
+/**********************************************************/
+
+
+#the-svg {
+	background-image: url('img/no-image.svg');
+}
