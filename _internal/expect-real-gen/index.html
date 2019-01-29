@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/page.css">
+		<link rel="stylesheet" type="text/css" href="css/card.css">
+		
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		
+		<script type="text/javascript" src="streeting/js/lib/streeting/streeting.js"></script>
+		<script type="text/javascript" src="streeting/js/lib/streeting/extras.js"></script>
+		
+		<script type="text/javascript" src="js/scripts.js"></script>
+	
+		<meta charset="UTF-8">
+		<!--		<meta name="viewport" content="width=device-width,initial-scale=1"> -->
+		<title>Generátor "Očekávání - Realita" meme</title>
+	</head>
+	<body onload="prepare()">
+
+		<h2>Vyplň ...</h2>
+		<p>Pro ořez obrázku je možné použít <a href="../online-image-cropper" target="_blank">online-image-cropper</a>. Ten také umožňuje vložení obrázku kopírováním pokud obrázek nepodporuje vkládání přes URL adresu.</p>
+
+		<form id="the-form">
+			<label>Oranžová část textu</label>
+			<input type="text" id="text-orange" data-streeting-id="text-orange" placeholder="Nejfamoznější vesmírný">
+
+			<label>Bílá část textu</label>
+			<input type="text" id="text-white" data-streeting-id="text-white" placeholder="způsob testování">
+			
+			<label>Barva předělu</label>
+			<input type="color" id="separator-color"  data-streeting-id="separator-color">
+						
+			<input type="submit" value="OK" />
+		</form>
+
+		<h2>Náhled</h2>
+		<article id="output-panel">
+			<svg id="svg-preview">
+				<text>Načítání...</text>
+			</svg>
+		</article>
+
+		
+		<article>
+			<h2>Výstup</h2>
+			<p>Vygenerovaný obrázek je ke stažení pod tímto odkazem: <a href="" id="output-link" target="_blank">stáhnout</a>.</p>
+		</article>
+	
+	</body>
+</html>

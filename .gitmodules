@@ -22,3 +22,6 @@
 [submodule "_internal/rvv-gen/streeting"]
 	path = _internal/rvv-gen/streeting
 	url = https://github.com/martlin2cz/streeting
+[submodule "_internal/expect-real-gen/streeting"]
+	path = _internal/expect-real-gen/streeting
+	url = https://github.com/martlin2cz/streeting
