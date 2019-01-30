@@ -8,48 +8,33 @@
 }
 
 
-
 /**********************************************************/
 
+fieldset {
+	display: block;
+	margin: 0.5eM 1%;
+}
 
 label {
 	display: block;
-	min-width: 20%;
+	min-width: 10%;
+	padding: 0.5eM 0.5%;
+	margin: 0.5% 0.2eM;
 	float: left;
 	clear: both;
 }
 
-input, textarea {
+input, select, textarea {
 	display: block;
-	padding: 5px;
+	min-width: 20%;
+	padding: 0.5eM 0.5%;;
 	margin: 1% 0.2eM;
 }
 
 /**********************************************************/
 
-input {
-	min-width: 20%;
-}
-
-input[type="submit"] {
+input[type="submit"], button {
 	min-width: 10%;
 }
 
-input[type="url"] {
-	min-width: 40%;
-}
-/**********************************************************/
 
-textarea {
-	font-family: inherit;
-	min-width: 40%;
-	height: 4eM;
-}
-
-textarea.big {
-	height: 10eM;
-}
-
-textarea.monospaced {
-	font-family: monospace;
-}

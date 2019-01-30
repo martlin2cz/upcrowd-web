@@ -16,50 +16,63 @@
 	</head>
 	<body onload="prepare()">
 
-		<h2>Vyplň ...</h2>
-		<p>Pro ořez obrázku je možné použít <a href="../online-image-cropper" target="_blank">online-image-cropper</a>. Ten také umožňuje vložení obrázku kopírováním pokud obrázek nepodporuje vkládání přes URL adresu.</p>
-
+		<h2>Generátor "Očekávání - Realita" meme</h2>
+		<p>Toto je jednoduchý nástroj na vytváření memů "Očekávání vs. Realita". Vznikl pro potřeby <a href="http://vedator.org" target="_blank">vědátora</a>.</p>
 		<form id="the-form">
-			<p>
+			<fieldset>
+				<p>Zvol šablonu (na výšku/na šířku; s orámovaným textem nebo bez) a barevné schéma. Obojí lze kdykoliv změnit (ale u obrázků pak může nesedět poměr stran a roztáhnou se). Všechny šablony vyžadují <a href="https://www.wfonts.com/font/impact" target="_blank">Font Impact</a>.</p>
 				<label>Šablona</label>
-				 <select id="select-template" onchange="updateTemplate()">
-					<option value="template-1-without-text-border.svg">nad sebou (bez orámování)</option>
-					<option value="template-1-with-text-border.svg">nad sebou (s orámováním)</option>
+				 <select id="select-template" value="template-1-with-text-border-landscape.svg" onchange="updateTemplate()">
+					<option value="template-1-with-text-border-landscape.svg">nad sebou (s orámováním textu)</option>
+					<option value="template-1-without-text-border-landscape.svg">nad sebou (bez orámování textu)</option>
+					<option value="template-1-with-text-border-portrait.svg">vedle sebe (s orámováním textu)</option>
+					<option value="template-1-without-text-border-portrait.svg">vedle sebe (bez orámování textu)</option>
 				</select>
-			</p>
-			<p>
-				<label>První řádek</label>
-				<input type="text" data-streeting-id="first-line-before" class="inline" placeholder="Nejfamoznější">
-				<input type="text" data-streeting-id="first-line-strong" class="inline" placeholder="VESMÍRNÝ">
-				<input type="text" data-streeting-id="first-line-after" class="inline" placeholder="způsob,">
 
-				<label>Druhý řádek</label>
-				<input type="text" data-streeting-id="second-line-before" class="inline" placeholder="jak">
-				<input type="text" data-streeting-id="second-line-strong" class="inline" placeholder="NECESTOVAT">
-				<input type="text" data-streeting-id="second-line-after" class="inline" placeholder="vesmírem?">
-			</p>
-
-			<p>
-				<label>Barva předělu</label>
+				<label>Pozadí a předěl</label>
 				<select id="separator-color"  data-streeting-id="separator" data-streeting-style-property="fill">
 					<option value="#FFFFFF">bílá</option>
 					<option value="#888888">šedá 50%</option>
 					<option value="#000000">černá</option>
 				</select>
 				<!-- 	<input type="color" id="separator-color"  data-streeting-id="separator" data-streeting-style-property="fill"> -->
-				
-				<label>Horní obrázek</label>
-				<input type="hidden" data-streeting-id="expectation-image" data-streeting-attr="xlink:href">
+			</fieldset>
+
+			<fieldset>
+				<p>Vyplň text. Text je možné rozložit na dva řádky. Prostřední pole se zobrazí oranžově, ostatní bíle. Je tedy možné mít na každém řádku jednu část oranžově, před a za ní něco bíle (ale vše je volitelné).</p>
+				<label>První řádek</label>
+				<div>
+					<input type="text" data-streeting-id="first-line-before" class="inline" value="Nejfamoznější ">
+					<input type="text" data-streeting-id="first-line-strong" class="inline" value="VESMÍRNÝ">
+					<input type="text" data-streeting-id="first-line-after" class="inline" value=" způsob,">
+				 </div>
+
+				<label>Druhý řádek</label>
+				<div>
+					<input type="text" data-streeting-id="second-line-before" class="inline" value="jak ">
+					<input type="text" data-streeting-id="second-line-strong" class="inline" value="NECESTOVAT">
+					<input type="text" data-streeting-id="second-line-after" class="inline" value=" vesmírem?">
+				</div>
+			</fieldset>
+
+			<fieldset>
+				<p>Vlož obrázky. Obrázek je třeba oříznout pomocí <a href="../online-image-cropper" target="_blank">online-image-cropper</a> (v poměru stran 1:2 nebo 2:1, dle šablony). <em>Online-image-cropper</em> také umožňuje vložení obrázku kopírováním pokud obrázek nepodporuje vkládání přes URL adresu. <strong>Pozor, při použití šablony "nad sebou" je třeba použít obrázky "na šířku" a při šabloně "vedle sebe" obrázky "na výšku".</strong> V opačném případě se chybějící pixely, bez ohledu na oříznutí, doplní barvou pozadí.</p>
+			
+				<label>Očekávání</label>
+				<input type="hidden" data-streeting-id="expectation-image" data-streeting-attr="xlink:href" value="img/default-expectation.jpg">
 				<input type="button" class="input-post-image-button" value="Vložit obrázek" onclick="promptImage(event)">
 
-				<label>Spodní obrázek</label>
-				<input type="hidden" data-streeting-id="reality-image" data-streeting-attr="xlink:href" placeholder="realita">
+				<label>Realita</label>
+				<input type="hidden" data-streeting-id="reality-image" data-streeting-attr="xlink:href" value="img/default-reality.jpg">
 				<input type="button" class="input-post-image-button" value="Vložit obrázek" onclick="promptImage(event)">
 
+			</fieldset>
 
+			<fieldset>
+				<p>Obrázek i výsledný odkaz úplně dole by se měly automaticky aktualizovat. Pokud ne, klikni na následující tlačítko.</p>
 
 				<input type="submit" value="OK" />
-			</p>
+			</fieldset>
 		</form>
 
 		<h2>Náhled</h2>

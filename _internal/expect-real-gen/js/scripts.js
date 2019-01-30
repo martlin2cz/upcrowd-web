@@ -22,7 +22,15 @@ function prepare() {
 
 
 function processIt() {
-	streeting.process('svg-preview', FORM_ID);
+	try {
+		streeting.process('svg-preview', FORM_ID, function(link) {
+ 	   var outlink = document.getElementById('output-link');
+ 	   outlink.href = link;
+ 	 });
+	} catch (e) {
+		alert("Chyba: " + JSON.stringify(e));
+	}
+	
 }
 
 
