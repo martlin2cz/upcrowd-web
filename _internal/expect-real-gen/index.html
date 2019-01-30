@@ -21,6 +21,13 @@
 
 		<form id="the-form">
 			<p>
+				<label>Šablona</label>
+				 <select id="select-template" onchange="updateTemplate()">
+					<option value="template-1-without-text-border.svg">nad sebou (bez orámování)</option>
+					<option value="template-1-with-text-border.svg">nad sebou (s orámováním)</option>
+				</select>
+			</p>
+			<p>
 				<label>První řádek</label>
 				<input type="text" data-streeting-id="first-line-before" class="inline" placeholder="Nejfamoznější">
 				<input type="text" data-streeting-id="first-line-strong" class="inline" placeholder="VESMÍRNÝ">

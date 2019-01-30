@@ -15,8 +15,8 @@ function prepare() {
     return false;
   }
       
-  streeting.initialize('svg-preview', template);
-  streeting.makeSourceInteractive(FORM_ID, processIt);
+  updateTemplate();
+	streeting.makeSourceInteractive(FORM_ID, processIt);
 
 }
 
@@ -25,6 +25,17 @@ function processIt() {
 	streeting.process('svg-preview', FORM_ID);
 }
 
+
+function updateTemplate() {
+	var select = document.getElementById('select-template');
+
+	var templateName = select.value;
+
+	var template ='templates/' + templateName;
+
+	streeting.initialize('svg-preview', template);
+	processIt();
+}
 
 function promptImage(event) {
   var source = event.target;
