@@ -2,7 +2,6 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="css/page.css">
-		<link rel="stylesheet" type="text/css" href="css/card.css">
 		
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 		
@@ -21,20 +20,43 @@
 		<p>Pro ořez obrázku je možné použít <a href="../online-image-cropper" target="_blank">online-image-cropper</a>. Ten také umožňuje vložení obrázku kopírováním pokud obrázek nepodporuje vkládání přes URL adresu.</p>
 
 		<form id="the-form">
-			<label>Oranžová část textu</label>
-			<input type="text" id="text-orange" data-streeting-id="text-orange" placeholder="Nejfamoznější vesmírný">
+			<p>
+				<label>První řádek</label>
+				<input type="text" data-streeting-id="first-line-before" class="inline" placeholder="Nejfamoznější">
+				<input type="text" data-streeting-id="first-line-strong" class="inline" placeholder="VESMÍRNÝ">
+				<input type="text" data-streeting-id="first-line-after" class="inline" placeholder="způsob,">
 
-			<label>Bílá část textu</label>
-			<input type="text" id="text-white" data-streeting-id="text-white" placeholder="způsob testování">
-			
-			<label>Barva předělu</label>
-			<input type="color" id="separator-color"  data-streeting-id="separator-color">
-						
-			<input type="submit" value="OK" />
+				<label>Druhý řádek</label>
+				<input type="text" data-streeting-id="second-line-before" class="inline" placeholder="jak">
+				<input type="text" data-streeting-id="second-line-strong" class="inline" placeholder="NECESTOVAT">
+				<input type="text" data-streeting-id="second-line-after" class="inline" placeholder="vesmírem?">
+			</p>
+
+			<p>
+				<label>Barva předělu</label>
+				<select id="separator-color"  data-streeting-id="separator" data-streeting-style-property="fill">
+					<option value="#FFFFFF">bílá</option>
+					<option value="#888888">šedá 50%</option>
+					<option value="#000000">černá</option>
+				</select>
+				<!-- 	<input type="color" id="separator-color"  data-streeting-id="separator" data-streeting-style-property="fill"> -->
+				
+				<label>Horní obrázek</label>
+				<input type="hidden" data-streeting-id="expectation-image" data-streeting-attr="xlink:href">
+				<input type="button" class="input-post-image-button" value="Vložit obrázek" onclick="promptImage(event)">
+
+				<label>Spodní obrázek</label>
+				<input type="hidden" data-streeting-id="reality-image" data-streeting-attr="xlink:href" placeholder="realita">
+				<input type="button" class="input-post-image-button" value="Vložit obrázek" onclick="promptImage(event)">
+
+
+
+				<input type="submit" value="OK" />
+			</p>
 		</form>
 
 		<h2>Náhled</h2>
-		<article id="output-panel">
+		<article id="output-panel" class="most-of-hight">
 			<svg id="svg-preview">
 				<text>Načítání...</text>
 			</svg>

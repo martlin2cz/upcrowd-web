@@ -1,3 +1,15 @@
+.most-of-hight {
+	display: block;
+	height: 90%;
+}
+
+.inline {
+	display: inline-block;
+}
+
+
+
+/**********************************************************/
 
 
 label {
