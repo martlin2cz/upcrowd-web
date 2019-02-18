@@ -25,3 +25,6 @@
 [submodule "_internal/expect-real-gen/streeting"]
 	path = _internal/expect-real-gen/streeting
 	url = https://github.com/martlin2cz/streeting
+[submodule "_internal/karty-predmetu-gen/streeting"]
+	path = _internal/karty-predmetu-gen/streeting
+	url = https://github.com/martlin2cz/streeting

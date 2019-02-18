@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="853.33331"
+   height="640"
+   id="svg2"
+   inkscape:label="Pozadí"
+   version="1.1"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="template-0.svg">
+  <defs
+     id="defs3">
+    <linearGradient
+       id="linearGradient4072">
+      <stop
+         style="stop-color:#182fbf;stop-opacity:1;"
+         offset="0"
+         id="stop4074" />
+      <stop
+         style="stop-color:#cd770c;stop-opacity:1;"
+         offset="1"
+         id="stop4076" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4072-5">
+      <stop
+         id="stop4074-3"
+         offset="0"
+         style="stop-color:#182fbf;stop-opacity:1;" />
+      <stop
+         id="stop4076-5"
+         offset="1"
+         style="stop-color:#cd770c;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="600"
+       x2="374.28571"
+       y1="0"
+       x1="374.28571"
+       id="linearGradient4078-7"
+       xlink:href="#linearGradient4072-5"
+       inkscape:collect="always" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#cbece6"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.9899495"
+     inkscape:cx="318.76386"
+     inkscape:cy="240.72596"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="712"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="true"
+     inkscape:snap-page="true" />
+  <metadata
+     id="metadata6">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Vrstva 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-482.51965)">
+    <image
+       sodipodi:absref="/home/martin/public_html/upcrowd/_internal/karty-predmetu-gen/templates/img/no-image.png"
+       xlink:href="img/no-image.png"
+       y="482.51965"
+       x="0"
+       id="background"
+       height="639.68011"
+       width="853.33331"
+       inkscape:label="#image4448" />
+    <rect
+       style="opacity:0.8;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.06666672"
+       id="rect3232"
+       width="426.66666"
+       height="320"
+       x="213.33333"
+       y="642.51965" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:58.66666667px;line-height:0%;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.06666672;"
+       x="427.38315"
+       y="704.84869"
+       id="shortcut"><tspan
+         sodipodi:role="line"
+         x="427.38315"
+         y="704.84869"
+         id="tspan4036"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:58.66666667px;line-height:1.25;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';stroke-width:1.06666672;">KNĚCO/PŘED1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66666603px;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.06666672"
+       x="426.15131"
+       y="781.09741"
+       id="name-and-when"
+       inkscape:label="#the-date"><tspan
+         sodipodi:role="line"
+         x="426.15131"
+         y="781.09741"
+         id="tspan4042"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66666603px;line-height:1.25;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';stroke-width:1.06666672">Přednášky z přednášení 1<tspan
+   x="426.15131"
+   y="781.09741"
+   id="tspan4044"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66666603px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';fill:#ffffff;fill-opacity:1;stroke-width:1.06666672" /></tspan><tspan
+         sodipodi:role="line"
+         x="426.15131"
+         y="814.43073"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66666603px;line-height:1.25;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';stroke-width:1.06666672"
+         id="tspan852">(neděle 23:58 - 23:59)</tspan></text>
+    <text
+       inkscape:label="#the-date"
+       id="when"
+       y="800.29028"
+       x="426.15131"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.06666672"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';stroke-width:1.06666672"
+         id="tspan842"
+         y="807.35876"
+         x="426.15131"
+         sodipodi:role="line" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666667px;line-height:0%;font-family:'roboto slab';-inkscape-font-specification:'roboto slab';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.06666672;"
+       x="426.15131"
+       y="859.88934"
+       id="description"
+       inkscape:label="#the-date"
+       description="description"><tspan
+         sodipodi:role="line"
+         x="428.79715"
+         y="859.88934"
+         id="tspan846"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666667px;line-height:1.25;font-family:'roboto slab';-inkscape-font-specification:'roboto slab';stroke-width:1.06666672;">Prostě cool přednášky </tspan><tspan
+         sodipodi:role="line"
+         x="426.15131"
+         y="886.55603"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666667px;line-height:1.25;font-family:'roboto slab';-inkscape-font-specification:'roboto slab';stroke-width:1.06666672;"
+         id="tspan850">o přednáškách.</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="streeting/js/lib/streeting/streeting.js"></script>
+		<script type="text/javascript" src="streeting/js/lib/streeting/extras.js"></script>
+	
+		<script type="text/javascript" src="js/scripts.js"></script>
+
+		<!-- link to oic (allows output to bitmap) -->
+		<script type="text/javascript" src="../online-image-cropper/js/core.js"></script>
+		<script type="text/javascript" src="../online-image-cropper/js/converts.js"></script>
+
+
+		<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+		<meta charset="UTF-8">
+		<title>Generátor karet předmětů</title>
+	</head>
+
+	<body onload="prepare()">
+		<section>
+			<form id="the-form">	
+				<label>Zkratka:</label>
+				<input type="text" value="KNĚCO/PŘED1" data-streeting-id="shortcut">
+
+				<label>Název&lt;br&gt;Termín:</label>
+				<input type="text" data-streeting-id="name-and-when" value="Přednášky z přednášení 1<br>(neděle 23:58 - 23:59)" 
+					data-streeting-processor="streeting.multilinedTextProcessor.centerAligned">
+	
+				<!--
+				<label>Kdy:</label>
+				<input type="text" data-streeting-id="when" value="(neděle 23:58 - 23:59)">
+				-->
+				<label>Popis:</label>
+				<input type="text" data-streeting-id="description" value="Prostě cool přednášky o přednáškách." 
+					data-streeting-processor="streeting.multilinedTextProcessor.centerAligned">
+	
+				<label>Obrázek na pozadí:</label>
+				<input type="hidden" data-streeting-id="background" data-streeting-attr="xlink:href" value="img/no-image.png">
+	      <input type="button" class="input-post-image-button" value="Vložit obrázek" onclick="promptImage(event)">
+				
+				<p>Pro nahrání obrázku použij <a href="../online-image-cropper/" target="_blank">online-image-cropper</a>. Obrázek ořízni na poměr stran 4:3.</p>
+
+				<input type="button" value="Aktualizovat!" onclick="processIt()">
+				<p>Pro odřádkování vlož do textu &lt;br&gt;. Pozor, bude to křičet chyby, netřeba lekat se, mělo by to fungovat.</p>
+			</form>
+		</section>
+		
+		<section>
+			<svg id="the-svg">
+				<text>Načítá se šablona. Pokud trvá moc dlouho, něco se pokazilo.</text>
+			</svg>
+		</section>
+
+		<section>
+			<output>Stáhnout obrázek:</output>
+			<a href="" id="the-result-link">zde</a>
+		</section>
+
+	</body>
+</html>
