@@ -28,3 +28,6 @@
 [submodule "_internal/karty-predmetu-gen/streeting"]
 	path = _internal/karty-predmetu-gen/streeting
 	url = https://github.com/martlin2cz/streeting
+[submodule "_internal/tvm-gen-v2/streeting"]
+	path = _internal/tvm-gen-v2/streeting
+	url = https://github.com/martlin2cz/streeting
