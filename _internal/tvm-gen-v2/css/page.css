@@ -63,7 +63,7 @@ li.input-post {
 }
 
 /**********************************************************/
-#output-link {
+.output-link {
 	font-size: 150%;
 	color: #202020;
 	font-weight: bold;

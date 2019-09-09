@@ -31,6 +31,14 @@
 				<label class="inline"> do </label>
 				<input type="date" id="input-date-to"
 					data-streeting-id="output-date-to" data-streeting-processor="streeting.dateProcessor.full">
+		
+				<label class="inline">, week since </label>
+				<input type="date" id="input-date-from-en" 
+					data-streeting-id="output-date-from-en" data-streeting-processor="streeting.dateProcessor.short">
+				<label class="inline"> to </label>
+				<input type="date" id="input-date-to-en"
+					data-streeting-id="output-date-to-en" data-streeting-processor="streeting.dateProcessor.full">
+	
 
 			</div>
 			
@@ -43,12 +51,17 @@
 					-->
 					<input type="hidden" class="input-post-image" value="img/no-image.svg" 
 						data-streeting-id="output-post-image" data-streeting-processor="imageProcessor">
+					<input type="hidden" class="input-post-image-en" value="img/no-image.svg" 
+						data-streeting-id="output-post-image-en" data-streeting-processor="imageProcessor">
 					<!-- data-streeting-attr="xlink:href" -->
 					<input type="button" class="input-post-image-button" value="Vložit obrázek" onclick="promptImage(event)">
 
 					<a href="../online-image-cropper" target="_blank">Oříznout/pokročilé vložení</a>
 					<input type="text" class="input-post-title on-single-line" placeholder="Američtí vědci zjistili, že ..." 
-					data-streeting-id="output-post" data-streeting-processor="streeting.multilinedTextProcessor.centerAligned">
+					data-streeting-id="output-post" data-streeting-processor="ignoringNotExistingMultilineCenteredTextProgress">
+					<input type="text" class="input-post-title-en on-single-line" placeholder="The US scientists came with shocking news" 
+					data-streeting-id="output-post-en" data-streeting-processor="ignoringNotExistingMultilineCenteredTextProgress">
+
 				</li>
 			</ul>
 			<div class="panel">
@@ -56,7 +69,7 @@
 				<textarea></textarea>
 			</div>
 
-			<input type="submit" value="Upravit výstupní obrázek" />
+			<input type="submit" value="Upravit výstupní obrázky" />
 		</form>
 		</article>
 
@@ -73,12 +86,16 @@
 				<svg id="output-svg">
 					<text>Náhled</text>
 				</svg>
+				<svg id="output-svg-en">
+					<text>Preview</text>
+				</svg>
+
 			</div>
 		</article>
 		
 		<article>
 			<h2>Výstup</h2>
-			<p>Vygenerovaný obrázek je ke stažení pod tímto odkazem: <a href="" id="output-link" target="_blank">stáhnout</a>.</p>
+			<p>Vygenerované obrázky jsou ke stažení pod tímto odkazem: <a href="" class="output-link" id="output-link" target="_blank">stáhnout</a> a <a href="" class="output-link" id="output-link-en" target="_blank">download</a>..</p>
 		</article>
 	</body>
 </html>

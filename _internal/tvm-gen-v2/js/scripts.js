@@ -3,6 +3,9 @@ var POSTS_COUNT = 4;
 var templateName = 'template-3.svg';
 var template = 'templates/' + templateName;                                                                                            
 
+var templateEnName = 'template-3-en.svg';
+var templateEn = 'templates/' + templateEnName;                                                                                            
+
 var NO_IMAGE_URL = 'img/no-image.svg';
 var FORM_ID = 'inputs-form';
 /////////////////////////////////////////////////////////////////////
@@ -22,6 +25,7 @@ function initialize() {
   }
       
   streeting.initialize('output-svg', template);
+  streeting.initialize('output-svg-en', templateEn);
   streeting.makeSourceInteractive(FORM_ID, updateOne);
 
 	this.updateComplete();
@@ -29,10 +33,15 @@ function initialize() {
 
 function updateComplete() {
 	try {
-  streeting.process('output-svg', FORM_ID, function(link) {
-		var outlink = document.getElementById('output-link');
-		outlink.href = link;
-	});
+		streeting.process('output-svg', FORM_ID, function(link) {
+			var outlink = document.getElementById('output-link');
+			outlink.href = link;
+		});	
+		streeting.process('output-svg-en', FORM_ID, function(link) {
+			var outlink = document.getElementById('output-link-en');
+			outlink.href = link;
+		});
+
 	} catch (e) {
 		alert("Chyba, " + JSON.stringify(e));
 	}
@@ -46,17 +55,22 @@ function updateOne(event) {
 
 function promptImage(event) {
 	var source = event.target;
-	var input = source.previousElementSibling;
+	var inputEn = source.previousElementSibling;
+	var input = inputEn.previousElementSibling;
 	var url = input.value;	
 
 	url = prompt('Zadej adresu obrázku', url);
 	if (url) {
 		input.value = url;
+		inputEn.value = url;
 
 		updateCropperLink(input);
 
 		var evtHack = { 'target': input };
 		updateOne(evtHack);
+
+		var evtHackEn = { 'target': inputEn };
+		updateOne(evtHackEn);
 	}
 }
 
@@ -94,31 +108,51 @@ function cloneAsSibling(className, count) {
 
 function setupAtts() {
 	var inputs = streeting.listInputs(FORM_ID);
-	var iPost = 0, iImage = 0;
+	var iPost = 0, iPostEn = 0, iImage = 0, iImageEn = 0;
 
 	inputs.forEach(function(input, index) {
 		if (input.classList.contains('input-post-image')) {
 			input.setAttribute(ID_ATTR_NAME, 'output-post-image-' + iImage);
 			iImage++;
 		} 
-
+		if (input.classList.contains('input-post-image-en')) {
+			input.setAttribute(ID_ATTR_NAME, 'output-post-image-en-' + iImageEn);
+			iImageEn++;
+		}
 		if (input.classList.contains('input-post-title')) {
 			input.setAttribute(ID_ATTR_NAME, 'output-post-' + iPost);
 			iPost++;
 		} 
+
+		if (input.classList.contains('input-post-title-en')) {
+			input.setAttribute(ID_ATTR_NAME, 'output-post-en-' + iPostEn);
+			iPostEn++;
+		} 
+
 	});	
 }
 
 function putDate(inputIdSpec, daysAfter) {
 	var input = document.getElementById('input-' + inputIdSpec);
+	var inputEn = document.getElementById('input-' + inputIdSpec + "-en");
+
 
 	var date = new Date();
 	date.setDate(date.getDate() + daysAfter);
 
 	input.valueAsDate = date;
+	inputEn.valueAsDate = date;
 }
 
 
 /////////////////////////////////////////////////////////////////////
 
+function ignoringNotExistingMultilineCenteredTextProgress(id, elem, value, isCentered) {
+	if (!elem) {
+		console.warn("Skipping " + id + " with value " + value + " (such element not found)");
+		return;
+	}
+
+	streeting.multilinedTextProcessor.centerAligned(id, elem, value, isCentered);
+}
 
