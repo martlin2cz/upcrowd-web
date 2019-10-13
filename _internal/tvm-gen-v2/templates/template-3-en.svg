@@ -44,9 +44,9 @@
      id="namedview4102"
      showgrid="true"
      inkscape:snap-page="true"
-     inkscape:zoom="1.9687174"
-     inkscape:cx="749.59245"
-     inkscape:cy="778.00632"
+     inkscape:zoom="0.49217935"
+     inkscape:cx="541.67111"
+     inkscape:cy="727.08176"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -269,29 +269,29 @@
   </g>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:72px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;letter-spacing:-5px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:72px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;letter-spacing:-5px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
      x="517.86121"
      y="102.82953"
      id="text5130"><tspan
        sodipodi:role="line"
-       x="318.92566"
+       x="310.91003"
        y="102.82953"
        id="tspan5124"><tspan
          x="313.41003"
          y="102.82953"
          id="tspan5120"
-         style="text-align:center;text-anchor:middle;letter-spacing:-5px;">A WEEK</tspan><tspan
+         style="text-align:center;letter-spacing:-5px;text-anchor:middle">THIS WEEK</tspan><tspan
          dx="0"
          x="567.00378"
          y="102.82953"
          id="tspan5122"
-         style="text-align:center;text-anchor:middle;letter-spacing:-5px;" /></tspan><tspan
+         style="text-align:center;letter-spacing:-5px;text-anchor:middle" /></tspan><tspan
        sodipodi:role="line"
-       x="309.91003"
+       x="310.91003"
        y="192.82953"
        id="tspan5128"><tspan
          x="313.41003"
          y="192.82953"
          id="tspan5126"
-         style="text-align:center;text-anchor:middle;letter-spacing:-5px;">IN THE MEDICINE</tspan></tspan></text>
+         style="text-align:center;letter-spacing:-5px;text-anchor:middle">IN THE MEDICINE</tspan></tspan></text>
 </svg>
