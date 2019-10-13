@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -42,15 +42,15 @@
      inkscape:window-width="1366"
      inkscape:window-height="708"
      id="namedview4102"
-     showgrid="false"
-     inkscape:snap-page="true"
+     showgrid="true"
+     inkscape:snap-page="false"
      inkscape:zoom="1.9687174"
-     inkscape:cx="351.87158"
-     inkscape:cy="823.21342"
+     inkscape:cx="726.73493"
+     inkscape:cy="782.57783"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg4100"
+     inkscape:current-layer="g1142"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:snap-text-baseline="true"
@@ -62,7 +62,8 @@
      inkscape:object-paths="true"
      inkscape:snap-intersection-paths="true"
      inkscape:snap-object-midpoints="true"
-     inkscape:snap-center="true">
+     inkscape:snap-center="true"
+     inkscape:snap-global="true">
     <sodipodi:guide
        orientation="1,0"
        position="160,440"
@@ -160,7 +161,7 @@
          style="font-size:40px;line-height:1.25;">Lorem Ipsum dolor sit amet.<tspan
    x="160"
    y="922.08203"
-   id="tspan4879"		
+   id="tspan4879"
    style="font-size:40px;" /></tspan></text>
     <image
        y="423.91003"
@@ -257,12 +258,12 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;letter-spacing:-1px;word-spacing:0px;fill:#a5a5a5;fill-opacity:1;stroke:none"
-       x="2213.6238"
+       x="2217.3477"
        y="444.83221"
        id="text1133"><tspan
          sodipodi:role="line"
          id="tspan1131"
-         x="2213.6238"
+         x="2217.3477"
          y="444.83221"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';letter-spacing:-1px;fill:#a5a5a5;fill-opacity:1">„Vaše akuality ze světa medicíny“</tspan></text>
   </g>
