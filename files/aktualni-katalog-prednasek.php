@@ -1,9 +1,10 @@
 <?php
 	$file="UPC-Katalog-07.10.2019-V6.pdf";
 ?>
+<!DOCTYPE html>
 <html>
 	<head>
-		<meta property="og:url" content="http://upcrowd.upol.cz/files/<?= $file ?>" />
+		<meta property="og:url" content="http://upcrowd.upol.cz/files/aktualni-katalog-prednasek.php" />
 		<meta property="og:type" content="article" />
 		<meta property="og:title" content="Katalog přednášek" />
 		<meta property="og:description" content="Katalog popularizačních přednášek pro střední školy - 2020" />
