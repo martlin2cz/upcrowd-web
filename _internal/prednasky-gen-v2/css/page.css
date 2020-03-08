@@ -7,7 +7,7 @@ label {
 	clear: both;
 }
 
-input, textarea {
+input, button, textarea {
 	display: block;
 	padding: 5px;
 	margin: 1% 0.2eM;
