@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8" />
+		<script type="text/javascript" src="https://api.mapy.cz/loader.js"></script>
+		<script type="text/javascript">Loader.load(null, {suggest: true});</script>
+		<script type="text/javascript" src="js/scripts.js"></script>
+
+		<title>Generátor map meme</title>
+	</head>
+
+	<body>
+		<h1>Generátor <em>map meme</em></h1>
+		<p><em>1. Zadej požadovaná slova, oddělená mezerou.</em></p>
+
+		<p>
+			<form onsubmit="wordsSubmitted(event)">
+				<label>Zadej text:</label>
+				<input type="text" placeholder="ohshita bridge" id="input-words" >
+				<input type="submit" value="Ukaž">
+			</form>
+		</p>
+	
+		<hr>
+		
+		<p><em>2. Pokud bylo něco nalezeno rovnou, Good For You! Pokud ne, rozklikni vstupní políčko a zkus slovo upravit (po napsání něčeho se rozbalí našeptávač). Pro vynucení konce slova (např. "haf" vs. "Hafenbach"), vlož za slovo čárku nebo mezeru. Pokud se našeptávač nezobrazí ani po pár sekundách, nic nenašel, a je třeba slovo přeformulovat.</em></p>
+
+
+			<div id="words-panels"></div>
+
+			<div id="word-panel-template" style="display: none; width: 300px">
+				<p>
+					<input class="word-input" type="text" value="" placeholder="word" />
+					<input class="zoom-plus" type="button" value="+" />
+					<input class="zoom-minus" type="button" value="-" />
+				</p>
+				
+				<label class="word-tip" style="font-size: 75%; font-style: italic"></label>
+
+				<div class="word-map" style="width: 280px; height: 280px"></div>
+
+			</div>
+
+		<p><em>3. Ale screenshot si udělej sám.</em></p>
+	</body>
+</html>
