@@ -44,13 +44,13 @@
      id="namedview4102"
      showgrid="false"
      inkscape:snap-page="true"
-     inkscape:zoom="0.69604673"
-     inkscape:cx="392.24212"
-     inkscape:cy="521.32464"
+     inkscape:zoom="1.3920935"
+     inkscape:cx="846.54636"
+     inkscape:cy="883.91386"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g4639"
+     inkscape:current-layer="g4912"
      showguides="true"
      inkscape:guide-bbox="true">
     <sodipodi:guide
@@ -146,7 +146,7 @@
        width="115" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:0.64999998px;word-spacing:0px;fill:#000c40;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:0.64999998px;font-size:30pt;word-spacing:0px;fill:#000c40;fill-opacity:1;stroke:none"
        x="160"
        y="239.422"
        id="output-post-0"
@@ -158,7 +158,7 @@
          style="font-size:40px;line-height:1.25">Lorem Ipsum dolor sit amet.</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:0.64999998px;word-spacing:0px;fill:#fb4d06;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:0.64999998px;font-size:30pt;word-spacing:0px;fill:#fb4d06;fill-opacity:1;stroke:none"
        x="160"
        y="375.922"
        id="output-post-1"
@@ -170,7 +170,7 @@
          style="font-size:40px;line-height:1.25">Lorem Ipsum dolor sit amet.</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:0.64999998px;word-spacing:0px;fill:#000c40;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:0.64999998px;font-size:30pt;word-spacing:0px;fill:#000c40;fill-opacity:1;stroke:none"
        x="160"
        y="512.422"
        id="output-post-2"><tspan
@@ -184,7 +184,7 @@
    id="tspan4867" /></tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:0.64999998px;word-spacing:0px;fill:#fb4d06;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:0.64999998px;font-size:30pt;word-spacing:0px;fill:#fb4d06;fill-opacity:1;stroke:none"
        x="160"
        y="648.922"
        id="output-post-3"><tspan
@@ -198,7 +198,7 @@
    id="tspan4873" /></tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:0.64999998px;word-spacing:0px;fill:#000c40;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:0.64999998px;font-size:30pt;word-spacing:0px;fill:#000c40;fill-opacity:1;stroke:none"
        x="160"
        y="785.422"
        id="output-post-4"><tspan
@@ -212,7 +212,7 @@
    id="tspan4879" /></tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:0.64999998px;word-spacing:0px;fill:#fb4d06;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:0.64999998px;font-size:30pt;word-spacing:0px;fill:#fb4d06;fill-opacity:1;stroke:none"
        x="160"
        y="921.922"
        id="output-post-5"
@@ -267,7 +267,7 @@
        id="g4912">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';letter-spacing:1.29999995px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';letter-spacing:1.29999995px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
          x="725.51367"
          y="60.929367"
          id="output-date-from"><tspan
@@ -275,11 +275,9 @@
            x="725.51367"
            y="60.929367"
            id="tspan4889"
-           style="font-size:26px;line-height:1">od<tspan
-   x="725.51367"
-   y="60.929367"
-   id="tspan4891"
-   style="font-size:26px" /></tspan></text>
+           style="font-size:26.66666603px;letter-spacing:1.29999995px"><tspan
+   style="line-height:45px"
+   id="tspan55">o</tspan>d</tspan></text>
       <text
          id="text4893"
          y="60.929367"
@@ -297,7 +295,7 @@
    x="805.23468" /></tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';text-align:end;letter-spacing:1.29999995px;word-spacing:0px;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';text-align:end;letter-spacing:1.29999995px;word-spacing:0px;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none"
          x="951.26245"
          y="60.929367"
          id="output-date-to"><tspan
@@ -305,7 +303,9 @@
            x="952.56244"
            y="60.929367"
            id="tspan4901"
-           style="font-size:26px;line-height:1">do</tspan></text>
+           style="font-size:26.66666603px;line-height:45">d<tspan
+   style="line-height:45"
+   id="tspan53">o</tspan></tspan></text>
     </g>
   </g>
 </svg>
