@@ -37,3 +37,6 @@
 [submodule "_internal/tvv-gen-v3/streeting"]
 	path = _internal/tvv-gen-v3/streeting
 	url = https://github.com/martlin2cz/streeting
+[submodule "_internal/tvv-gen-v4/streeting"]
+	path = _internal/tvv-gen-v4/streeting
+	url = https://github.com/martlin2cz/streeting
