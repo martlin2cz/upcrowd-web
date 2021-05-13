@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/page.css">
+		<link rel="stylesheet" type="text/css" href="css/card.css">
+		
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
+		<script type="text/javascript" src="streeting/js/lib/streeting/streeting.js"></script>                                             
+		<script type="text/javascript" src="streeting/js/lib/streeting/extras.js"></script>
+
+		<script type="text/javascript" src="../online-image-cropper/js/core.js"></script>
+		<script type="text/javascript" src="../online-image-cropper/js/converts.js"></script>
+
+		<script type="text/javascript" src="js/scripts.js"></script>
+
+		<meta charset="UTF-8">
+		<!--		<meta name="viewport" content="width=device-width,initial-scale=1"> -->
+		<title>Generátor Týdne ve vědě</title>
+	</head>
+	<body onload="return initialize()">
+		<article>	
+		<h2>Týden ve vědě</h2>
+		
+		<form id="inputs-form">
+			<div class="panel">
+				<label>Týden od </label>
+				<input type="date" id="input-date-from" 
+					data-streeting-id="output-date-from" data-streeting-processor="streeting.dateProcessor.short">
+				
+				<label class="inline"> do </label>
+				<input type="date" id="input-date-to"
+					data-streeting-id="output-date-to" data-streeting-processor="streeting.dateProcessor.full">
+
+			</div>
+			
+			<p>Vlož pětici (nebo šestici, dle zvoleného designu) postů (obrázek a popis). U obrázku je nutné vložit kompletní URL, nebo použít <a href="../online-image-cropper" target="blank">online-image-cropper</a> pro vylepšené vložení obrázku, jednoduché oříznutí a případně zakulacení rohů. U popisu je nutné ručně zalamovat text vložením <code>&lt;br&gt;</code>. Potom si vyber design (facebook, twitter, 5 postů, 6 postů a podob.).</p>
+			<ul class="input-posts">
+				<li class="input-post panel">
+					<input type="url" class="input-post-image" placeholder="http://něco.com/obrázek.jpg" 
+						data-streeting-id="output-post-image" data-streeting-attr="xlink:href">
+					<input type="checkbox" class="input-post-crop" checked="true" onchange="update()"><label>Zakulatit</label>
+
+					<a href="../online-image-cropper" target="_blank">Pokročilé oříznutí/vložení</a>
+					<input type="text" class="input-post-title on-single-line" placeholder="Američtí vědci zjistili, že ..." 
+					data-streeting-id="output-post" data-streeting-processor="streeting.multilinedTextProcessor.centerAligned">
+				</li>
+			</ul>
+			
+			<div class="panel">
+				<p>Toto místo slouží jako odkladiště při přeskládávání postů:</p>
+				<textarea></textarea>
+			</div>
+
+			<div class="panel">
+				<label>Design výstupního obrázku:</label>
+				<select id="templates-dropdown" oninput="templateChanged(event)" />
+				<input type="submit" value="Upravit výstupní obrázek" />
+			</div>
+		</form>
+		</article>
+
+		<article>
+			<h2>Náhled obrázku</h2>
+	
+			<div class="panel">
+				<p><strong>Upozornění:</strong> Náhled obrázku a výstupní obrázek využívají jiné technologie. Výstupní obrázek používá jiný formát a proto je jeho vytvoření <em>řádově</em> výpočetně náročnější. Při psaní/vložení obrázku se automaticky mění náhled, nikoliv však výstupní obrázek. Ten je třeba ručně aktualizovat klinutím na <em>Upravit výstupní obrázek</em>.</p>
+				<p>Teprve při generování výstupního obrázku se může projevit problém s ochranou obrázku (vyskočí chybové hlášení). V takovém případě je nutné kliknout na <a href="../online-image-cropper" target="_blank"><em>Oříznout/pokročilé vložení</em></a> a vložit obrázek zkopírováním. U obrázků se svobodnou licencí by však tento problém nastávat neměl.</p>
+				<p>Pro generování výstupního obrázku je také vhodné mít v počítači nainstalovány patřičné fonty (aktuálně jen <a href="https://fonts.google.com/specimen/Roboto+Slab?selection.family=Roboto+Slab" target="_blank">Roboto Slab</a>).
+			</div>
+
+			<div class="panel">
+				<svg id="output-svg">
+					<text>Náhled</text>
+				</svg>
+			</div>
+		</article>
+		
+		<article>
+			<h2>Výstup</h2>
+			<p>Vygenerovaný obrázek je ke stažení pod tímto odkazem: <a href="" id="output-link" target="_blank">stáhnout</a>. Před kliknutím nezapomeň <em>Upravit výstupní obrázek</em>.</p>
+		</article>
+	</body>
+</html>

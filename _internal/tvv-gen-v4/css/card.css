@@ -1,0 +1,111 @@
+/*
+	colors: ff4e00 (orange), 000c40 (blue), ffffff (white, obviously)
+	font size: 1.18 * height of M (in mm)
+	element height: 1.2 * font size (in mm)
+*/
+
+#output-panel {
+	display: block;
+	width: 960px;
+	height: 960px;
+	background-color: #ffffff;
+
+	font-family: 'Roboto Slab', sans-serif;
+}
+
+
+
+
+#output-header {
+	height: 140px;
+	background-color: #fe4c02;
+}
+
+
+/********************************************************************/
+#output-tvv-heading {
+	color: #000c40;
+	font-size: 85px;
+	float: left;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 25px 0 25px 25px;
+	margin: 0;
+}
+
+#output-dates, #output-vedator-fb-link {
+	display: inline-block;
+	color: #ffffff;
+	display: block;
+	font-size: 31px;
+
+	font-weight: bold;
+}
+
+#output-dates {
+	padding: 30px 10px 6px 0;
+/*	width: 200px;*/
+	text-align: center;
+}
+
+#output-vedator-fb-link {
+	padding: 6px 25px 25px 0px;
+/*	max-width: 200px;*/
+	text-align: center;
+}
+	
+#output-vedator-fb-img {
+	height: 40px;
+	vertical-align: bottom;
+}
+
+
+/********************************************************************/
+#output-posts {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	padding-top: 40px; 
+}
+
+.output-post {
+	clear: both;
+	margin-bottom: 25px;
+	height: 105px;
+}
+
+.output-post:nth-child(even) {
+	color: #ff4e00; 
+}
+
+.output-post:nth-child(odd) {
+	color: #000c40;
+}
+
+.output-post-image {
+	width: 110px;
+	padding: 0 10px;
+	float: left;
+}
+
+.output-post-title {
+	display: block;
+	font-size: 40px;
+/*	padding: 5px 0 5px 25px;*/
+}
+
+
+/********************************************************************/
+
+
+
+.horizontaly-centered-content {
+  display: block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.rounded {
+	border-radius: 50%;
+}
