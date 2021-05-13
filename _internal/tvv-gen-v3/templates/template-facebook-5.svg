@@ -12,10 +12,10 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg4100"
    version="1.1"
-   inkscape:version="0.48.5 r10040"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    width="960"
    height="823"
-   sodipodi:docname="template-2.svg">
+   sodipodi:docname="template-facebook-2.svg">
   <metadata
      id="metadata4106">
     <rdf:RDF>
@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -40,7 +40,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1366"
-     inkscape:window-height="719"
+     inkscape:window-height="712"
      id="namedview4102"
      showgrid="false"
      inkscape:snap-page="true"
@@ -56,7 +56,8 @@
     <sodipodi:guide
        orientation="1,0"
        position="160,440"
-       id="guide4805" />
+       id="guide4805"
+       inkscape:locked="false" />
     <inkscape:grid
        type="xygrid"
        id="grid4807"
@@ -67,7 +68,8 @@
     <sodipodi:guide
        orientation="1,0"
        position="21.685377,794.07416"
-       id="guide4811" />
+       id="guide4811"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <rect
      style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -90,15 +92,15 @@
        style="fill:#fa4d08;fill-opacity:1;fill-rule:nonzero;stroke:none" />
     <text
        xml:space="preserve"
-       style="font-size:84px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:1.5px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Roboto Slab;-inkscape-font-specification:Roboto Slab Bold"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';letter-spacing:1.5px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        x="22.34375"
        y="237.36594"
-       id="text4823"
-       sodipodi:linespacing="125%"><tspan
+       id="text4823"><tspan
          sodipodi:role="line"
          x="22.34375"
          y="237.36594"
-         id="tspan4825"><tspan
+         id="tspan4825"
+         style="font-size:84px;line-height:1.25"><tspan
            x="22.34375"
            y="237.36594"
            id="tspan4827">TÝDEN VE VĚDĚ</tspan></tspan></text>
@@ -127,15 +129,15 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-size:30px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:100%;letter-spacing:0.75px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Roboto Slab;-inkscape-font-specification:Roboto Slab Bold"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';letter-spacing:0.75px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
        x="777.95264"
        y="247.15503"
-       id="text4835"
-       sodipodi:linespacing="100%"><tspan
+       id="text4835"><tspan
          sodipodi:role="line"
          x="777.95264"
          y="247.15503"
-         id="tspan4837"><tspan
+         id="tspan4837"
+         style="font-size:30px;line-height:1"><tspan
            x="777.95264"
            y="247.15503"
            id="tspan4839">VedatorCZ</tspan></tspan></text>
@@ -148,67 +150,67 @@
        width="115" />
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0.64999998px;word-spacing:0px;fill:#000c40;fill-opacity:1;stroke:none;font-family:Roboto Slab;-inkscape-font-specification:Roboto Slab"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:0.64999998px;word-spacing:0px;fill:#000c40;fill-opacity:1;stroke:none"
        x="160"
        y="376.08203"
        id="output-post-0"
-       sodipodi:linespacing="125%"
        inkscape:label="#output-post-0"><tspan
          sodipodi:role="line"
          x="160"
          y="376.08203"
-         id="tspan4847">Lorem Ipsum dolor sit amet.</tspan></text>
+         id="tspan4847"
+         style="font-size:40px;line-height:1.25">Lorem Ipsum dolor sit amet.</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0.64999998px;word-spacing:0px;fill:#fb4d06;fill-opacity:1;stroke:none;font-family:Roboto Slab;-inkscape-font-specification:Roboto Slab"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:0.64999998px;word-spacing:0px;fill:#fb4d06;fill-opacity:1;stroke:none"
        x="160"
        y="512.58203"
        id="output-post-1"
-       sodipodi:linespacing="125%"
        inkscape:label="#output-post-1"><tspan
          sodipodi:role="line"
          x="160"
          y="512.58203"
-         id="tspan4859">Lorem Ipsum dolor sit amet.</tspan></text>
+         id="tspan4859"
+         style="font-size:40px;line-height:1.25">Lorem Ipsum dolor sit amet.</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0.64999998px;word-spacing:0px;fill:#000c40;fill-opacity:1;stroke:none;font-family:Roboto Slab;-inkscape-font-specification:Roboto Slab"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:0.64999998px;word-spacing:0px;fill:#000c40;fill-opacity:1;stroke:none"
        x="160"
        y="649.08203"
-       id="output-post-2"
-       sodipodi:linespacing="125%"><tspan
+       id="output-post-2"><tspan
          sodipodi:role="line"
          x="160"
          y="649.08203"
-         id="tspan4865">Lorem Ipsum dolor sit amet.<tspan
+         id="tspan4865"
+         style="font-size:40px;line-height:1.25">Lorem Ipsum dolor sit amet.<tspan
    x="160"
    y="649.08203"
    id="tspan4867" /></tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0.64999998px;word-spacing:0px;fill:#fb4d06;fill-opacity:1;stroke:none;font-family:Roboto Slab;-inkscape-font-specification:Roboto Slab"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:0.64999998px;word-spacing:0px;fill:#fb4d06;fill-opacity:1;stroke:none"
        x="160"
        y="785.58203"
-       id="output-post-3"
-       sodipodi:linespacing="125%"><tspan
+       id="output-post-3"><tspan
          sodipodi:role="line"
          x="160"
          y="785.58203"
-         id="tspan4871">Lorem Ipsum dolor sit amet.<tspan
+         id="tspan4871"
+         style="font-size:40px;line-height:1.25">Lorem Ipsum dolor sit amet.<tspan
    x="160"
    y="785.58203"
    id="tspan4873" /></tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0.64999998px;word-spacing:0px;fill:#000c40;fill-opacity:1;stroke:none;font-family:Roboto Slab;-inkscape-font-specification:Roboto Slab"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:0.64999998px;word-spacing:0px;fill:#000c40;fill-opacity:1;stroke:none"
        x="160"
        y="922.08203"
-       id="output-post-4"
-       sodipodi:linespacing="125%"><tspan
+       id="output-post-4"><tspan
          sodipodi:role="line"
          x="160"
          y="922.08203"
-         id="tspan4877">Lorem Ipsum dolor sit amet.<tspan
+         id="tspan4877"
+         style="font-size:40px;line-height:1.25">Lorem Ipsum dolor sit amet.<tspan
    x="160"
    y="922.08203"
    id="tspan4879" /></tspan></text>
@@ -248,45 +250,45 @@
        transform="translate(0,136.66003)">
       <text
          xml:space="preserve"
-         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:100%;letter-spacing:1.29999995px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Roboto Slab;-inkscape-font-specification:Roboto Slab Bold"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';letter-spacing:1.29999995px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
          x="725.51367"
          y="60.929367"
-         id="output-date-from"
-         sodipodi:linespacing="100%"><tspan
+         id="output-date-from"><tspan
            sodipodi:role="line"
            x="725.51367"
            y="60.929367"
-           id="tspan4889">od<tspan
+           id="tspan4889"
+           style="font-size:26px;line-height:1">od<tspan
    x="725.51367"
    y="60.929367"
    id="tspan4891"
    style="font-size:26px" /></tspan></text>
       <text
-         sodipodi:linespacing="100%"
          id="text4893"
          y="60.929367"
          x="809.36554"
-         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:1.29999995px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Roboto Slab;-inkscape-font-specification:Roboto Slab Bold"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';text-align:center;letter-spacing:1.29999995px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
          xml:space="preserve"><tspan
            id="tspan4895"
            y="60.929367"
            x="810.01556"
-           sodipodi:role="line">-<tspan
+           sodipodi:role="line"
+           style="font-size:26px;line-height:1">-<tspan
    style="font-size:26px;text-align:center;text-anchor:middle"
    id="tspan4897"
    y="60.929367"
    x="805.23468" /></tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:100%;letter-spacing:1.29999995px;word-spacing:0px;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Roboto Slab;-inkscape-font-specification:Roboto Slab Bold"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';text-align:end;letter-spacing:1.29999995px;word-spacing:0px;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none"
          x="951.26245"
          y="60.929367"
-         id="output-date-to"
-         sodipodi:linespacing="100%"><tspan
+         id="output-date-to"><tspan
            sodipodi:role="line"
            x="952.56244"
            y="60.929367"
-           id="tspan4901">do</tspan></text>
+           id="tspan4901"
+           style="font-size:26px;line-height:1">do</tspan></text>
     </g>
   </g>
 </svg>

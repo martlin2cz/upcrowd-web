@@ -2,8 +2,8 @@ var POSTS_COUNT = 6;
 
 var templatesNames= {
 	"template-facebook-6.svg": "design pro facebook s 6 položkami (původní) (1x6)",
-	//"template-facebook.5.svg": "design pro facebook s 5 položkami 1x5",
-		"template-twitter-6-sikme.svg": "design pro twitter s 6 položkami (cik-cak) (2x3)",
+	"template-facebook-5.svg": "design pro facebook s 5 položkami 1x5",
+	"template-twitter-6-sikme.svg": "design pro twitter s 6 položkami (cik-cak) (2x3)",
 	"template-twitter-6-rovne.svg": "design pro twitter s 6 položkami (mřížka) (2x3)",
 
 };
