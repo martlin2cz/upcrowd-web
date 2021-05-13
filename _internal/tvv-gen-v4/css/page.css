@@ -71,3 +71,9 @@ li.input-post {
 	color: #202020;
 	font-weight: bold;
 }
+
+
+.rounded {
+        border-radius: 50%;
+}
+

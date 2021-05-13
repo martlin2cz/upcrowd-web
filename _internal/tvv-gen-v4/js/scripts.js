@@ -85,6 +85,14 @@ function updateOne(event) {
 			//alert(msg);
 		});
 }
+
+function roundCorners(id, elem, value) {
+	if (value) {
+		elem.classList.add("rounded");
+	} else {
+		elem.classList.remove("rounded");	
+	}
+}
 /*
 function promptImage(event) {
 	var source = event.target;
@@ -138,14 +146,17 @@ function cloneAsSibling(className, count) {
 
 function setupAtts() {
 	var inputs = streeting.listInputs(FORM_ID);
-	var iPost = 0, iImage = 0;
+	var iPost = 0, iImage = 0, iRound = 0;
 
 	inputs.forEach(function(input, index) {
 		if (input.classList.contains('input-post-image')) {
 			input.setAttribute(ID_ATTR_NAME, 'output-post-image-' + iImage);
 			iImage++;
+		}
+		if (input.classList.contains('input-image-round')) {
+			input.setAttribute(ID_ATTR_NAME, 'output-post-image-' + iRound);
+			iRound++;
 		} 
-
 		if (input.classList.contains('input-post-title')) {
 			input.setAttribute(ID_ATTR_NAME, 'output-post-' + iPost);
 			iPost++;
