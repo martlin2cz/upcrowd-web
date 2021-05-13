@@ -37,9 +37,9 @@
 [submodule "_internal/tvv-gen-v3/streeting"]
 	path = _internal/tvv-gen-v3/streeting
 	url = https://github.com/martlin2cz/streeting
-[submodule "_internal/tvv-gen-v4/streeting"]
-	path = _internal/tvv-gen-v4/streeting
-	url = https://github.com/martlin2cz/streeting
 [submodule "_internal/online-image-cropper-v1.1"]
 	path = _internal/online-image-cropper-v1.1
 	url = https://github.com/martlin2cz/online-image-cropper
+[submodule "_internal/tvv-gen-v4/streeting"]
+	path = _internal/tvv-gen-v4/streeting
+	url = https://github.com/martlin2cz/streeting

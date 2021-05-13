@@ -63,10 +63,15 @@ function updateTemplate(templateName) {
 
 function updateComplete() {
 	try {
-		streeting.process('output-svg', FORM_ID, function(link) {
-			var outlink = document.getElementById('output-link');
-			outlink.href = link;
-		});
+		streeting.process('output-svg', FORM_ID,
+			function(link) {
+				var outlink = document.getElementById('output-link');
+				outlink.href = link;
+			},
+			function(msg, e) {
+				//alert(msg);
+			}
+		);
 	} catch (e) {
 		console.error("Chyba, " + JSON.stringify(e));
 	}
@@ -75,7 +80,10 @@ function updateComplete() {
 function updateOne(event) {
 	var sender = event.target;
 
-	streeting.processUpdate('output-svg', sender, null);
+	streeting.processUpdate('output-svg', sender, null,
+		function(msg, e) {
+			//alert(msg);
+		});
 }
 /*
 function promptImage(event) {
