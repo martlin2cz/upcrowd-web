@@ -98,7 +98,7 @@
      id="layer1"
      inkscape:label="tmp">
     <rect
-       style="opacity:0.33600003;fill:#fdfffe;fill-opacity:1;stroke:none;stroke-width:22.67716599;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:22.67716599;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect866"
        width="600"
        height="333"
@@ -183,7 +183,7 @@
        width="64.428284" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.2825221px;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:0.36415982px;word-spacing:0px;fill:#000c40;fill-opacity:1;stroke:none;stroke-width:0.56024593;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:0.36415982px;word-spacing:0px;fill:#000c40;fill-opacity:1;stroke:none;stroke-width:0.56024593;"
        x="1317.274"
        y="561.35059"
        id="output-post-0"
@@ -192,10 +192,10 @@
          x="1317.274"
          y="561.35059"
          id="tspan4847"
-         style="font-size:19.2825221px;line-height:1.25;stroke-width:0.56024593;">Lorem Ipsum dolor sit amet.</tspan></text>
+         style="font-size:24px;line-height:1.25;stroke-width:0.56024593;">Lorem Ipsum dolor sit amet.</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.2825221px;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:0.36415982px;word-spacing:0px;fill:#fb4d06;fill-opacity:1;stroke:none;stroke-width:0.56024593;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:0.36415982px;word-spacing:0px;fill:#fb4d06;fill-opacity:1;stroke:none;stroke-width:0.56024593;"
        x="1770.7058"
        y="561.35059"
        id="output-post-1"
@@ -204,10 +204,10 @@
          x="1770.7058"
          y="561.35059"
          id="tspan4859"
-         style="font-size:19.2825221px;line-height:1.25;stroke-width:0.56024593;">Lorem Ipsum dolor sit amet.</tspan></text>
+         style="font-size:24px;line-height:1.25;stroke-width:0.56024593;">Lorem Ipsum dolor sit amet.</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.2825221px;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:0.36415982px;word-spacing:0px;fill:#000c40;fill-opacity:1;stroke:none;stroke-width:0.56024593;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:0.36415982px;word-spacing:0px;fill:#000c40;fill-opacity:1;stroke:none;stroke-width:0.56024593;"
        x="1317.274"
        y="700.01416"
        id="output-post-2"><tspan
@@ -215,14 +215,14 @@
          x="1317.274"
          y="700.01416"
          id="tspan4865"
-         style="font-size:19.2825221px;line-height:1.25;stroke-width:0.56024593;">Lorem Ipsum dolor sit amet.<tspan
+         style="font-size:24px;line-height:1.25;stroke-width:0.56024593;">Lorem Ipsum dolor sit amet.<tspan
    x="1317.274"
    y="700.01416"
    id="tspan4867"
-   style="stroke-width:0.56024593;font-size:19.2825221px;" /></tspan></text>
+   style="stroke-width:0.56024593;font77-size:24px;" /></tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.2825221px;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:0.36415982px;word-spacing:0px;fill:#fb4d06;fill-opacity:1;stroke:none;stroke-width:0.56024593;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:0.36415982px;word-spacing:0px;fill:#fb4d06;fill-opacity:1;stroke:none;stroke-width:0.56024593;"
        x="1770.7058"
        y="700.01422"
        id="output-post-3"><tspan
@@ -230,14 +230,14 @@
          x="1770.7058"
          y="700.01422"
          id="tspan4871"
-         style="font-size:19.2825221px;line-height:1.25;stroke-width:0.56024593;">Lorem Ipsum dolor sit amet.<tspan
+         style="font-size:24px;line-height:1.25;stroke-width:0.56024593;">Lorem Ipsum dolor sit amet.<tspan
    x="1770.7058"
    y="700.01422"
    id="tspan4873"
-   style="stroke-width:0.56024593;font-size:19.2825221px;" /></tspan></text>
+   style="stroke-width:0.56024593;font-size:24px;" /></tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.14001965px;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:0.36415982px;word-spacing:0px;fill:#000c40;fill-opacity:1;stroke:none;stroke-width:0.56024593;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:0.36415982px;word-spacing:0px;fill:#000c40;fill-opacity:1;stroke:none;stroke-width:0.56024593;"
        x="1317.274"
        y="852.9613"
        id="output-post-4"><tspan
@@ -245,7 +245,7 @@
          x="1317.274"
          y="852.9613"
          id="tspan4877"
-         style="font-size:19.2825221px;line-height:1.25;stroke-width:0.56024593">Lorem Ipsum dolor sit amet.</tspan></text>
+         style="font-size:24px;line-height:1.25;stroke-width:0.56024593">Lorem Ipsum dolor sit amet.</tspan></text>
     <image
        y="511.67245"
        x="1693.2156"
@@ -326,14 +326,14 @@
        id="output-post-5"
        y="852.9613"
        x="1770.7058"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.2825221px;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:0.36415982px;word-spacing:0px;fill:#fb4d06;fill-opacity:1;stroke:none;stroke-width:0.56024593;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:0%;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:0.36415982px;word-spacing:0px;fill:#fb4d06;fill-opacity:1;stroke:none;stroke-width:0.56024593;"
        xml:space="preserve"><tspan
-         style="font-size:19.2825221px;line-height:1.25;stroke-width:0.56024593;"
+         style="font-size:24px;line-height:1.25;stroke-width:0.56024593;"
          id="tspan869"
          y="852.9613"
          x="1770.7058"
          sodipodi:role="line">Lorem Ipsum dolor sit amet.<tspan
-   style="stroke-width:0.56024593;font-size:19.2825221px;"
+   style="stroke-width:0.56024593;font-size:24px;"
    id="tspan867"
    y="852.9613"
    x="1770.7058" /></tspan></text>
