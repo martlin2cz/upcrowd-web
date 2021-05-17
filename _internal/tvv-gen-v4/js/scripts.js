@@ -140,15 +140,18 @@ function toDateProcessor(id, elem, value) {
 
 	var fromStr;
 	if (fromDate.getFullYear() != toDate.getFullYear()) {
-		fromStr = fromDate.getDate() + ". " + (fromDate.getMonth() + 1) + ". " + fromDate.getFullYear();
+		fromStr = fromDate.getDate() + "." + (fromDate.getMonth() + 1) + "." + fromDate.getFullYear();
 	} else {
-		fromStr = fromDate.getDate() + ". " + (fromDate.getMonth() + 1) + ". ";
+		fromStr = fromDate.getDate() + "." + (fromDate.getMonth() + 1) + ".";
 	}
 
-	var toStr = toDate.getDate() + ". " + (toDate.getMonth() + 1) + ". " + toDate.getFullYear();
+	var toStr = toDate.getDate() + "." + (toDate.getMonth() + 1) + "." + toDate.getFullYear();
 
 	var dateRangeStr = fromStr + " - " + toStr;
 	console.debug("Setting week to " + dateRangeStr);
+
+	var output = document.getElementById("output-od-do-text-span");
+	output.textContent = dateRangeStr;
 	return dateRangeStr;
 }
 

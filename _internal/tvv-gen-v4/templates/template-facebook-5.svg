@@ -105,9 +105,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="409.79118"
-     inkscape:cy="304.21418"
+     inkscape:zoom="3.959798"
+     inkscape:cx="547.39923"
+     inkscape:cy="762.78669"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -136,7 +136,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -222,19 +222,19 @@
            y="30" /></flowRegion><flowPara
          id="flowPara1035" /></flowRoot>    <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:3.25;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:-0.13229167px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;"
-       x="163.88094"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:3.25;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:-0.13229167px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1"
+       x="159.877"
        y="98.829361"
        id="output-date-range"><tspan
          sodipodi:role="line"
-         x="163.88094"
+         x="159.877"
          y="98.829361"
          id="output-od-do-span"
-         style="stroke-width:1;fill:#ffffff;fill-opacity:1;"><tspan
-           x="163.88094"
+         style="fill:#ffffff;fill-opacity:1;stroke-width:1"><tspan
+           x="159.877"
            y="98.829361"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05555534px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';letter-spacing:-0.13229167px;fill:#ffffff;stroke-width:1;fill-opacity:1;"
-           id="tspan884">3.5 - 9.5.2021</tspan></tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05555534px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';letter-spacing:-0.13229167px;fill:#ffffff;fill-opacity:1;stroke-width:1"
+           id="output-od-do-text-span">3.5 - 9.5.2021</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:3.25;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:-0.13229167px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;"
