@@ -40,11 +40,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="560.57506"
-     inkscape:cy="437.56807"
+     inkscape:zoom="1.979899"
+     inkscape:cx="187.07504"
+     inkscape:cy="599.71842"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="post-0"
      showgrid="true"
      units="px"
      inkscape:window-width="1366"
@@ -98,7 +98,7 @@
     <image
        sodipodi:absref="/home/martin/public_html/upcrowd/_internal/tvv-gen-v4/samples/web-6.png"
        y="85.333328"
-       x="-2.8421709e-14"
+       x="250.825"
        id="original"
        xlink:href="file:///home/martin/public_html/upcrowd/_internal/tvv-gen-v4/samples/web-6.png"
        style="fill:#000c40;fill-opacity:1;image-rendering:optimizeSpeed"
@@ -106,22 +106,22 @@
        height="211.66667"
        width="209.55"
        inkscape:label="#image893" />
-    <flowRoot
+    <text
        xml:space="preserve"
-       id="TVV-nadpis"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66666603px;line-height:3.25;font-family:FreeSans;-inkscape-font-specification:FreeSans;letter-spacing:-0.5px;word-spacing:0px;fill:#000c40;fill-opacity:1;stroke:none;"
-       transform="matrix(0.26458334,0,0,0.26458334,-0.20045215,93.767616)"
-       inkscape:label="#flowRoot1037"><flowRegion
-         id="flowRegion1039"
-         style="letter-spacing:-0.5px;fill:#000c40;fill-opacity:1;"><rect
-           id="rect1041"
-           width="580"
-           height="100"
-           x="20"
-           y="10"
-           style="letter-spacing:-0.5px;fill:#000c40;fill-opacity:1;" /></flowRegion><flowPara
-         id="flowPara1043"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:70.66666412px;line-height:0px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';letter-spacing:-0.5px;fill:#000c40;fill-opacity:1;">TÝDEN VE VĚDĚ</flowPara></flowRoot>    <flowRoot
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:3.25;font-family:FreeSans;-inkscape-font-specification:FreeSans;letter-spacing:-0.13229167px;word-spacing:0px;fill:#000c40;fill-opacity:1;stroke:none;stroke-width:1"
+       x="5.0912147"
+       y="109.99539"
+       id="text1699"><tspan
+         sodipodi:role="line"
+         x="5.0912147"
+         y="109.99539"
+         id="tspan1697"
+         style="stroke-width:1"><tspan
+           x="5.0912147"
+           y="109.99539"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.69722176px;line-height:0px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';letter-spacing:-0.13229167px;fill:#000c40;fill-opacity:1;stroke-width:1"
+           id="tspan1695">TÝDEN VE VĚDĚ</tspan></tspan></text>
+    <flowRoot
        xml:space="preserve"
        id="flowRoot1013"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66666603px;line-height:3.25;font-family:FreeSans;-inkscape-font-specification:FreeSans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -170,22 +170,22 @@
            y="98.829361"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05555534px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';letter-spacing:-0.13229167px;fill:#deffff;stroke-width:1"
            id="tspan884">3.5 - 9.5.2021</tspan></tspan></text>
-    <flowRoot
-       inkscape:label="#flowRoot847"
+    <text
        xml:space="preserve"
-       id="flowRoot855"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66666603px;line-height:3.25;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:-0.5px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.26458334,0,0,0.26458334,6.0901176,89.302075)"><flowRegion
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66666603px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:-0.5px"
-         id="flowRegion851"><rect
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66666603px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:-0.5px"
-           id="rect849"
-           width="179.67856"
-           height="78.928574"
-           x="615"
-           y="30" /></flowRegion><flowPara
-         id="flowPara853"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.66666603px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';letter-spacing:-0.5px;fill:#deffff">VedatorCZ</flowPara></flowRoot>    <g
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:3.25;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:-0.13229167px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1"
+       x="168.80887"
+       y="110.78286"
+       id="text1715"><tspan
+         sodipodi:role="line"
+         x="168.80887"
+         y="110.78286"
+         id="tspan1713"
+         style="stroke-width:1"><tspan
+           x="168.80887"
+           y="110.78286"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05555534px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';letter-spacing:-0.13229167px;fill:#deffff;stroke-width:1"
+           id="tspan1711">VedatorCZ</tspan></tspan></text>
+    <g
        id="fb-logo"
        transform="matrix(0.01754173,0,0,0.01754173,159.5861,103.68338)"
        style="opacity:1;stroke-width:15.0830822">
@@ -213,20 +213,32 @@
          id="output-post-image-0"
          x="-5.7561376e-08"
          y="122.41279"
-         sodipodi:absref="/home/martin/public_html/upcrowd/_internal/tvv-gen-v4/img/no-image.png" />
-      <flowRoot
-         transform="matrix(0.26458334,0,0,0.26458334,0.53453906,88.473742)"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.66666794px;line-height:1.25;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:-0.5px;word-spacing:0px;fill:#000c40;fill-opacity:1;stroke:none"
-         id="output-post-text-0"
-         xml:space="preserve"><flowRegion
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.66666794px;line-height:1.25;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:-0.5px;fill:#000c40;fill-opacity:1"
-           id="flowRegion877"><rect
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.66666794px;line-height:1.25;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:-0.5px;fill:#000c40;fill-opacity:1"
-             y="140.14285"
-             x="105"
-             height="115.57143"
-             width="684.79993"
-             id="rect879" /></flowRegion><flowPara
-           id="flowPara887">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</flowPara></flowRoot>    </g>
+         sodipodi:absref="/home/martin/public_html/upcrowd/_internal/tvv-gen-v4/img/no-image.png"
+         transform="translate(0,-0.03779521)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.17222309px;line-height:1.25;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:-0.13229167px;word-spacing:0px;fill:#000c40;fill-opacity:1;stroke:none;stroke-width:1"
+         x="28.31579"
+         y="143.34839"
+         id="output-post-text-0"><tspan
+           sodipodi:role="line"
+           x="28.31579"
+           y="143.34839"
+           id="tspan1703"
+           style="stroke-width:1"><tspan
+             x="28.31579"
+             y="143.34839"
+             id="tspan1701"
+             style="stroke-width:1">Lorem ipsum dolor sit amet, consectetuer </tspan></tspan><tspan
+           sodipodi:role="line"
+           x="28.31579"
+           y="154.81367"
+           id="tspan1707"
+           style="stroke-width:1"><tspan
+             x="28.31579"
+             y="154.81367"
+             id="tspan1705"
+             style="stroke-width:1">adipiscing elit.</tspan></tspan></text>
+    </g>
   </g>
 </svg>
