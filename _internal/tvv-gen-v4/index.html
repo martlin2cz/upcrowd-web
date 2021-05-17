@@ -40,14 +40,14 @@
 					<input type="url" class="input-post-image" value="img/no-photo.jpg" placeholder="http://něco.com/obrázek.jpg" 
 						data-streeting-id="output-post-image" data-streeting-attr="xlink:href">
 
-					<input type="checkbox" class="input-image-round" checked="true"
-						data-streeting-id="output-post-image" data-streeting-processor="roundCorners">
-					<label><del title="Nefunguje">Zakulatit</del></label>
-
+					<label>Zaoblit:</label>
+					<input type="slider" class="input-post-image-cropper" min="0" max="25" value="25"
+						data-streeting-id="output-post-image-cropper" data-streeting-processor="streeting.roundCornersProcessor">
+					
 					<a href="../online-image-cropper-v1.1" target="_blank">Pokročilé oříznutí/vložení</a>
 					
 					<input type="text" class="input-post-title on-single-line" placeholder="Američtí vědci zjistili, že ..." 
-					data-streeting-id="output-post" data-streeting-processor="streeting.multilinedTextProcessor.centerAligned">
+					data-streeting-id="output-post-text" data-streeting-processor="streeting.multilinedTextProcessor.centerAligned">
 				</li>
 			</ul>
 			

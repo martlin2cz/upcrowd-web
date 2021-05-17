@@ -5,6 +5,7 @@ var templatesNames= {
 	"template-facebook-5.svg": "design pro facebook s 5 položkami 1x5",
 	"template-twitter-6-sikme.svg": "design pro twitter s 6 položkami (cik-cak) (2x3)",
 	"template-twitter-6-rovne.svg": "design pro twitter s 6 položkami (mřížka) (2x3)",
+	"sample-template-1.svg": "desgin pro testování apliace (1 post)",
 
 };
 
@@ -146,19 +147,19 @@ function cloneAsSibling(className, count) {
 
 function setupAtts() {
 	var inputs = streeting.listInputs(FORM_ID);
-	var iPost = 0, iImage = 0, iRound = 0;
+	var iPost = 0, iImage = 0, iCropper = 0;
 
 	inputs.forEach(function(input, index) {
 		if (input.classList.contains('input-post-image')) {
 			input.setAttribute(ID_ATTR_NAME, 'output-post-image-' + iImage);
 			iImage++;
 		}
-		if (input.classList.contains('input-image-round')) {
-			input.setAttribute(ID_ATTR_NAME, 'output-post-image-' + iRound);
-			iRound++;
+		if (input.classList.contains('input-post-image-cropper')) {
+			input.setAttribute(ID_ATTR_NAME, 'output-post-image-cropper-' + iCropper);
+			iCropper++;
 		} 
-		if (input.classList.contains('input-post-title')) {
-			input.setAttribute(ID_ATTR_NAME, 'output-post-' + iPost);
+		if (input.classList.contains('input-post-text')) {
+			input.setAttribute(ID_ATTR_NAME, 'output-post-text' + iPost);
 			iPost++;
 		} 
 	});	

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="792"
+   height="800"
+   viewBox="0 0 209.55 211.66667"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="sample-template-1.svg">
+  <defs
+     id="defs2">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath982">
+      <rect
+         style="opacity:1;fill:#0fd700;fill-opacity:1;stroke:#000000;stroke-width:0.39687505;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+         id="output-post-image-cropper-0"
+         width="27.78125"
+         height="27.78125"
+         x="-5.7561376e-08"
+         y="122.41279"
+         rx="13.890625"
+         ry="13.890625" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="350.90397"
+     inkscape:cy="517.28779"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1366"
+     inkscape:window-height="712"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:snap-page="true"
+     inkscape:snap-to-guides="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid896" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Vrstva 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-85.333326)">
+    <rect
+       style="opacity:1;fill:#fe4c02;fill-opacity:1;stroke:none;stroke-width:0.39687505;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       id="header-bg"
+       width="209.55"
+       height="30.427082"
+       x="0"
+       y="85.333328" />
+    <rect
+       style="opacity:1;fill:#deffff;fill-opacity:1;stroke:none;stroke-width:0.39687502;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       id="body-bg"
+       width="209.55"
+       height="181.23959"
+       x="0"
+       y="115.76041"
+       inkscape:label="#rect1053" />
+    <image
+       sodipodi:absref="/home/martin/public_html/upcrowd/_internal/tvv-gen-v4/samples/web-6.png"
+       y="85.333328"
+       x="-2.8421709e-14"
+       id="original"
+       xlink:href="file:///home/martin/public_html/upcrowd/_internal/tvv-gen-v4/samples/web-6.png"
+       style="fill:#000c40;fill-opacity:1;image-rendering:optimizeSpeed"
+       preserveAspectRatio="none"
+       height="211.66667"
+       width="209.55"
+       inkscape:label="#image893" />
+    <flowRoot
+       xml:space="preserve"
+       id="TVV-nadpis"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66666603px;line-height:3.25;font-family:FreeSans;-inkscape-font-specification:FreeSans;letter-spacing:-0.5px;word-spacing:0px;fill:#000c40;fill-opacity:1;stroke:none;"
+       transform="matrix(0.26458334,0,0,0.26458334,-0.20045215,93.767616)"
+       inkscape:label="#flowRoot1037"><flowRegion
+         id="flowRegion1039"
+         style="letter-spacing:-0.5px;fill:#000c40;fill-opacity:1;"><rect
+           id="rect1041"
+           width="580"
+           height="100"
+           x="20"
+           y="10"
+           style="letter-spacing:-0.5px;fill:#000c40;fill-opacity:1;" /></flowRegion><flowPara
+         id="flowPara1043"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:70.66666412px;line-height:0px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';letter-spacing:-0.5px;fill:#000c40;fill-opacity:1;">TÝDEN VE VĚDĚ</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1013"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66666603px;line-height:3.25;font-family:FreeSans;-inkscape-font-specification:FreeSans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458334,0,0,0.26458334,0,85.333326)"><flowRegion
+         id="flowRegion1015"><rect
+           id="rect1017"
+           width="580"
+           height="70"
+           x="20"
+           y="30" /></flowRegion><flowPara
+         id="flowPara1019">TÝDEN</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1021"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.99999979px;line-height:104px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;"
+       transform="matrix(0.26458334,0,0,0.26458334,0,85.333326)"><flowRegion
+         id="flowRegion1023"
+         style="-inkscape-font-specification:'Roboto Slab';font-family:'Roboto Slab';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:11.99999979px;line-height:104px;"><rect
+           id="rect1025"
+           width="580"
+           height="80"
+           x="20"
+           y="20"
+           style="-inkscape-font-specification:'Roboto Slab';font-family:'Roboto Slab';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:11.99999979px;line-height:104px;" /></flowRegion><flowPara
+         id="flowPara1027">TÝDEN VE VĚDĚ</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1029"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:FreeSans;font-style:normal;font-weight:normal;font-size:26.66666667px;line-height:3.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:FreeSans;font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion1031"><rect
+           id="rect1033"
+           width="580"
+           height="70"
+           x="20"
+           y="30" /></flowRegion><flowPara
+         id="flowPara1035" /></flowRoot>    <flowRoot
+       transform="matrix(0.26458334,0,0,0.26458334,1.1621813,77.348578)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66666603px;line-height:3.25;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:-0.5px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="od-do"
+       xml:space="preserve"
+       inkscape:label="#flowRoot847"><flowRegion
+         id="flowRegion843"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66666603px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:-0.5px"><rect
+           y="30"
+           x="615"
+           height="78.928574"
+           width="179.67856"
+           id="rect841"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66666603px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:-0.5px" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.66666603px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';letter-spacing:-0.5px;fill:#deffff"
+         id="flowPara845">3.5 - 9.5.2021</flowPara></flowRoot>    <flowRoot
+       inkscape:label="#flowRoot847"
+       xml:space="preserve"
+       id="flowRoot855"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66666603px;line-height:3.25;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:-0.5px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458334,0,0,0.26458334,6.0901176,89.302075)"><flowRegion
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66666603px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:-0.5px"
+         id="flowRegion851"><rect
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66666603px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:-0.5px"
+           id="rect849"
+           width="179.67856"
+           height="78.928574"
+           x="615"
+           y="30" /></flowRegion><flowPara
+         id="flowPara853"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:26.66666603px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';letter-spacing:-0.5px;fill:#deffff">VedatorCZ</flowPara></flowRoot>    <g
+       id="fb-logo"
+       transform="matrix(0.01754173,0,0,0.01754173,159.5861,103.68338)"
+       style="opacity:1;stroke-width:15.0830822">
+      <circle
+         style="fill:#3b5998;stroke-width:15.0830822"
+         cx="256"
+         cy="256"
+         r="256"
+         id="circle2" />
+      <path
+         style="fill:#ffffff;stroke-width:15.0830822"
+         inkscape:connector-curvature="0"
+         d="m 301.6,151.2 c 15.6,0 36.3,0 36.3,0 V 97 c 0,0 -21.8,0 -51.4,0 -29.6,0 -68.1,19 -68.1,74.2 0,10.3 0,25.4 0,43 h -49.1 v 56.1 h 49.1 c 0,69.9 0,146 0,146 h 21.8 17.3 19.5 c 0,0 0,-78.8 0,-146 h 48.8 l 8.1,-56.1 H 277 c 0,-18.4 0,-31.8 0,-35.7 0,-18.4 9,-27.3 24.6,-27.3 z"
+         id="path4" />
+    </g>
+    <g
+       id="post-0">
+      <image
+         clip-path="url(#clipPath982)"
+         width="27.78125"
+         height="27.78125"
+         preserveAspectRatio="none"
+         style="opacity:1;stroke-width:3.1346941;image-rendering:optimizeSpeed"
+         xlink:href="file:///home/martin/public_html/upcrowd/_internal/tvv-gen-v4/img/no-image.png"
+         id="output-post-image-0"
+         x="-5.7561376e-08"
+         y="122.41279"
+         sodipodi:absref="/home/martin/public_html/upcrowd/_internal/tvv-gen-v4/img/no-image.png" />
+      <flowRoot
+         transform="matrix(0.26458334,0,0,0.26458334,0.53453906,88.473742)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.66666794px;line-height:1.25;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:-0.5px;word-spacing:0px;fill:#000c40;fill-opacity:1;stroke:none"
+         id="output-post-text-0"
+         xml:space="preserve"><flowRegion
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.66666794px;line-height:1.25;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:-0.5px;fill:#000c40;fill-opacity:1"
+           id="flowRegion877"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.66666794px;line-height:1.25;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab';letter-spacing:-0.5px;fill:#000c40;fill-opacity:1"
+             y="140.14285"
+             x="105"
+             height="115.57143"
+             width="363.57144"
+             id="rect879" /></flowRegion><flowPara
+           id="flowPara883">Archeologové ...</flowPara><flowPara
+           id="flowPara887">Franklinovy</flowPara></flowRoot>    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:3.25;font-family:FreeSans;-inkscape-font-specification:FreeSans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1"
+       x="159.50581"
+       y="91.355751"
+       id="text882"><tspan
+         sodipodi:role="line"
+         x="159.50581"
+         y="91.355751"
+         id="tspan880"
+         style="stroke-width:1"><tspan
+           x="159.50581"
+           y="91.355751"
+           id="tspan878"
+           style="stroke-width:1">FOO</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:3.25;font-family:FreeSans;-inkscape-font-specification:FreeSans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1"
+       x="183.31831"
+       y="91.355751"
+       id="text876"><tspan
+         sodipodi:role="line"
+         x="183.31831"
+         y="91.355751"
+         id="tspan874"
+         style="stroke-width:1"><tspan
+           x="183.31831"
+           y="91.355751"
+           id="tspan872"
+           style="stroke-width:1">FOO</tspan></tspan></text>
+  </g>
+</svg>
