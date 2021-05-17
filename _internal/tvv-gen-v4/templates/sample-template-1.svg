@@ -96,11 +96,11 @@
        y="115.76041"
        inkscape:label="#rect1053" />
     <image
-       sodipodi:absref="/home/martin/public_html/upcrowd/_internal/tvv-gen-v4/samples/web-6.png"
+       sodipodi:absref="/samples/web-6.png"
        y="85.333328"
        x="250.825"
        id="original"
-       xlink:href="file:///home/martin/public_html/upcrowd/_internal/tvv-gen-v4/samples/web-6.png"
+       xlink:href="file:///samples/web-6.png"
        style="fill:#000c40;fill-opacity:1;image-rendering:optimizeSpeed"
        preserveAspectRatio="none"
        height="211.66667"
@@ -209,11 +209,11 @@
          height="27.78125"
          preserveAspectRatio="none"
          style="opacity:1;stroke-width:3.1346941;image-rendering:optimizeSpeed"
-         xlink:href="file:///home/martin/public_html/upcrowd/_internal/tvv-gen-v4/img/no-image.png"
+         xlink:href="file:///img/no-image.png"
          id="output-post-image-0"
          x="-5.7561376e-08"
          y="122.41279"
-         sodipodi:absref="/home/martin/public_html/upcrowd/_internal/tvv-gen-v4/img/no-image.png"
+         sodipodi:absref="/img/no-image.png"
          transform="translate(0,-0.03779521)" />
       <text
          xml:space="preserve"
