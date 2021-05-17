@@ -43,6 +43,13 @@ input[type="checkbox"] {
 	min-width: 2eM;
 }
 
+input[type="range"] {
+	position: relative;
+	top: 0.5eM;
+	min-width: 5%;
+}
+
+
 select {
 	min-width: 20%;
 }

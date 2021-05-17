@@ -65,8 +65,7 @@ function updateComplete() {
 	try {
 		streeting.process('output-svg', FORM_ID,
 			function(link) {
-				var outlink = document.getElementById('output-link');
-				outlink.href = link;
+				console.info("SVG updated!");
 			},
 			function(msg, e) {
 				//alert(msg);
@@ -86,48 +85,6 @@ function updateOne(event) {
 		});
 }
 
-function roundCorners(id, elem, value) {
-	if (value) {
-		elem.classList.add("rounded");
-	} else {
-		elem.classList.remove("rounded");	
-	}
-}
-/*
-function promptImage(event) {
-	var source = event.target;
-	var input = source.previousElementSibling;
-	var url = input.value;	
-
-	url = prompt('Zadej adresu obrázku', url);
-	if (url) {
-		input.value = url;
-
-		updateCropperLink(input);
-
-		var evtHack = { 'target': input };
-		updateOne(evtHack);
-	}
-}
-*/
-
-function updateCropperLink(input) {
-	var link = input.nextElementSibling.nextElementSibling;
-
-	var url = input.value;	
-	link.href = "../online-image-cropper/?img=" + url;
-}
-
-/////////////////////////////////////////////////////////////////////
-/*
-function imageProcessor(id, elem, value) {
-	if (!value) {
-		value = NO_IMAGE_URL;
-	}
-
-	elem.setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', value);
-}
-*/
 
 /////////////////////////////////////////////////////////////////////
 
@@ -158,7 +115,7 @@ function setupAtts() {
 			iCropper++;
 		} 
 		if (input.classList.contains('input-post-text')) {
-			input.setAttribute(ID_ATTR_NAME, 'output-post-text' + iPost);
+			input.setAttribute(ID_ATTR_NAME, 'output-post-text-' + iPost);
 			iPost++;
 		} 
 	});	
