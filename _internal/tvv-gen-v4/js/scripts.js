@@ -20,8 +20,7 @@ function initialize() {
 	cloneAsSibling("input-post", POSTS_COUNT);
 	setupAtts();
 
-	putDate("date-from", -6);
-	putDate("date-to", 0);
+	putDate();
 
  	var form = document.getElementById(FORM_ID);                                                                                         
    
@@ -165,15 +164,36 @@ function setupAtts() {
 	});	
 }
 
-function putDate(inputIdSpec, daysAfter) {
-	var input = document.getElementById('input-' + inputIdSpec);
+/////////////////////////////////////////////////////////////////////
+
+
+function putDate() {
+	var input = document.getElementById('input-date-to');
 
 	var date = new Date();
-	date.setDate(date.getDate() + daysAfter);
+	date.setDate(date.getDate());
 
 	input.valueAsDate = date;
 }
 
+function toDateProcessor(id, elem, value) {
+	var toDate = new Date(value);
+	var fromDate = new Date(toDate);
+  	fromDate.setDate(toDate.getDate() - 6);
+
+	var fromStr;
+	if (fromDate.getFullYear() != toDate.getFullYear()) {
+		fromStr = fromDate.getDate() + ". " + (fromDate.getMonth() + 1) + ". " + fromDate.getFullYear();
+	} else {
+		fromStr = fromDate.getDate() + ". " + (fromDate.getMonth() + 1) + ". ";
+	}
+
+	var toStr = toDate.getDate() + ". " + (toDate.getMonth() + 1) + ". " + toDate.getFullYear();
+
+	var dateRangeStr = fromStr + " - " + toStr;
+	console.debug("Setting week to " + dateRangeStr);
+	return dateRangeStr;
+}
 
 /////////////////////////////////////////////////////////////////////
 

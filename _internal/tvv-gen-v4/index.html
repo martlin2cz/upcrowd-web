@@ -24,29 +24,31 @@
 		
 		<form id="inputs-form">
 			<div class="panel">
-				<label>Týden od </label>
-				<input type="date" id="input-date-from" 
-					data-streeting-id="output-date-from" data-streeting-processor="streeting.dateProcessor.short">
+				<section>
+					<label>Týden od <em>(minulé pondělí)</em>: </label>
+					<span><em>Dopočítá se automaticky</em></span>
+				</section>
+				<section>
+				<label>Týden do <em>(dnes, <strong>musí být neděle</strong>)</em>: </label>
 				
-				<label class="inline"> do </label>
 				<input type="date" id="input-date-to"
-					data-streeting-id="output-date-to" data-streeting-processor="streeting.dateProcessor.full">
-
+					data-streeting-id="output-date-range" data-streeting-processor="toDateProcessor">
+				</section>
 			</div>
 			
-			<p>Vlož pětici (nebo šestici, dle zvoleného designu) postů (obrázek a popis). U obrázku je nutné vložit kompletní URL, nebo použít <a href="../online-image-cropper-v1.1" target="blank">online-image-cropper</a> pro vylepšené vložení obrázku, jednoduché oříznutí a případně zakulacení rohů. U popisu je nutné ručně zalamovat text vložením <code>&lt;br&gt;</code>. Potom si vyber design (facebook, twitter, 5 postů, 6 postů a podob.).</p>
+			<p>Vlož pětici (nebo šestici, dle zvoleného designu) postů (obrázek a popis). U obrázku je nutné vložit kompletní URL, je možné jim zaoblit rohy. Po pokročilejší ořez a zaoblení je ovšem potřeba použít <a href="../online-image-cropper-v1.1" target="blank">online-image-cropper</a>. U popisu je nutné ručně zalamovat text vložením <code>&lt;br&gt;</code>. Potom si vyber design (facebook, twitter, 5 postů, 6 postů a podob.).</p>
 			<ul class="input-posts">
 				<li class="input-post panel">
 					<input type="url" class="input-post-image" value="img/no-photo.jpg" placeholder="http://něco.com/obrázek.jpg" 
 						data-streeting-id="output-post-image" data-streeting-attr="xlink:href">
 
 					<label>Zaoblit:</label>
-					<input type="slider" class="input-post-image-cropper" min="0" max="25" value="25"
+					<input type="range" class="input-post-image-cropper" min="0" max="25" value="25"
 						data-streeting-id="output-post-image-cropper" data-streeting-processor="streeting.roundCornersProcessor">
 					
 					<a href="../online-image-cropper-v1.1" target="_blank">Pokročilé oříznutí/vložení</a>
 					
-					<input type="text" class="input-post-title on-single-line" placeholder="Američtí vědci zjistili, že ..." 
+					<input type="text" class="input-post-text on-single-line" placeholder="Američtí vědci zjistili, že ..." 
 					data-streeting-id="output-post-text" data-streeting-processor="streeting.multilinedTextProcessor.centerAligned">
 				</li>
 			</ul>
