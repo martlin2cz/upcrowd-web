@@ -79,17 +79,30 @@
        fx="185"
        fy="43.070309"
        r="50" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4751"
+       x="-0.52004621"
+       width="2.0400924"
+       y="-0.067825301"
+       height="1.1356506">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.80551999"
+         id="feGaussianBlur4753" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
-     pagecolor="#ffffff"
+     pagecolor="#68496c"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="48.903087"
-     inkscape:cy="419.9168"
+     inkscape:zoom="0.12374369"
+     inkscape:cx="1161.7389"
+     inkscape:cy="962.90766"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -112,7 +125,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -122,25 +135,25 @@
      id="layer1"
      transform="translate(0,-66)">
     <image
+       sodipodi:absref="/home/martin/public_html/upcrowd/_internal/online-image-cropper-v1.1/img/no-image.jpg"
+       y="66"
+       x="-1.1368684e-13"
+       id="output-bg-image"
+       xlink:href="http://upcrowd.upol.cz/_internal/vedatoronovinka-gen/img/no-image.png"
+       style="stroke-width:0.79354423;image-rendering:optimizeSpeed"
+       preserveAspectRatio="none"
+       height="231"
+       width="231" />
+    <image
        sodipodi:absref="/home/martin/public_html/upcrowd/_internal/vedatoronovinka-gen/sample/sample.jpg"
        y="66.340034"
-       x="-343.26859"
+       x="-284.46503"
        id="image912"
        xlink:href="file:///home/martin/public_html/upcrowd/_internal/vedatoronovinka-gen/sample/sample.jpg"
        style="image-rendering:optimizeSpeed"
        preserveAspectRatio="none"
        height="231.51042"
        width="231.51042" />
-    <image
-       sodipodi:absref="/home/martin/public_html/upcrowd/_internal/online-image-cropper-v1.1/img/no-image.jpg"
-       y="66"
-       x="0"
-       id="output-bg-image"
-       xlink:href="http://upcrowd.upol.cz/_internal/tvv-gen-v4/img/no-image.png"
-       style="stroke-width:0.79354423;image-rendering:optimizeSpeed"
-       preserveAspectRatio="none"
-       height="231"
-       width="231" />
     <path
        style="fill:url(#radialGradient928);fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 48.800975,78.03961 3.853008,26.20969 -0.965739,-23.829658 23.576039,-3.59939 z"
@@ -153,48 +166,16 @@
        style="fill:url(#radialGradient940);fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.69999981px;line-height:1;font-family:impact;-inkscape-font-specification:'impact Bold';text-align:center;letter-spacing:-1.58749998px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1"
-       x="119.40145"
-       y="98.21537"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.69999981px;line-height:1;font-family:impact;-inkscape-font-specification:'impact Bold';text-align:center;letter-spacing:-0.79374999px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1"
+       x="100.68944"
+       y="114.70704"
        id="output-text-top"
        transform="rotate(-5.6140328)"><tspan
          sodipodi:role="line"
-         x="120.02467"
-         y="98.21537"
-         id="tspan4862"
-         style="stroke-width:1"><tspan
-           x="119.40145"
-           y="98.21537"
-           id="tspan4858"
-           style="stroke-width:1">Vyšší zdraví, ne </tspan><tspan
-           dx="0"
-           x="209.68431"
-           y="98.21537"
-           id="tspan4860"
-           style="stroke-width:1" /></tspan><tspan
-         sodipodi:role="line"
-         x="109.78033"
-         y="110.91537"
-         id="tspan4868"
-         style="stroke-width:1"><tspan
-           x="110.57408"
-           y="110.91537"
-           id="tspan4864"
-           style="stroke-width:1">ekonomika stojí za</tspan><tspan
-           dx="0"
-           x="215.67775"
-           y="110.91537"
-           id="tspan4866"
-           style="stroke-width:1" /></tspan><tspan
-         sodipodi:role="line"
-         x="100.27084"
-         y="123.61536"
+         x="100.29256"
+         y="114.70704"
          id="tspan4872"
-         style="stroke-width:1"><tspan
-           x="101.06459"
-           y="123.61536"
-           id="tspan4870"
-           style="stroke-width:1">snižující se porodností</tspan></tspan></text>
+         style="letter-spacing:-0.79374999px;stroke-width:1">lorem</tspan></text>
     <path
        style="fill:url(#radialGradient944);fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 189.82977,113.13044 -3.46728,-26.263509 0.61532,23.841279 -23.62641,3.25242 z"
@@ -207,47 +188,59 @@
        style="fill:url(#radialGradient952);fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58333302px;line-height:1;font-family:impact;-inkscape-font-specification:'impact Bold';text-align:center;letter-spacing:-1.58749998px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1"
-       x="146.0822"
-       y="253.53067"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.58333302px;line-height:1;font-family:impact;-inkscape-font-specification:'impact Bold';text-align:center;letter-spacing:-0.79374999px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1"
+       x="125.30234"
+       y="268.84869"
        id="output-text-bottom"
        transform="rotate(2.9660504)"><tspan
          sodipodi:role="line"
-         x="146.33698"
-         y="253.53067"
-         id="tspan41"
-         style="stroke-width:1"><tspan
-           x="146.0822"
-           y="253.53067"
-           id="tspan37"
-           style="stroke-width:1">Vyšší zdraví, ne </tspan><tspan
-           dx="0"
-           x="216.82001"
-           y="253.53067"
-           id="tspan39"
-           style="stroke-width:1" /></tspan><tspan
-         sodipodi:role="line"
-         x="138.1969"
-         y="264.11401"
-         id="tspan47"
-         style="stroke-width:1"><tspan
-           x="138.99065"
-           y="264.11401"
-           id="tspan43"
-           style="stroke-width:1">ekonomika stojí za</tspan><tspan
-           dx="0"
-           x="221.81453"
-           y="264.11401"
-           id="tspan45"
-           style="stroke-width:1" /></tspan><tspan
-         sodipodi:role="line"
-         x="130.93378"
-         y="274.69736"
+         x="124.90546"
+         y="268.84869"
          id="tspan51"
-         style="stroke-width:1"><tspan
-           x="131.72752"
-           y="274.69736"
-           id="tspan49"
-           style="stroke-width:1">snižující se porodností</tspan></tspan></text>
+         style="letter-spacing:-0.79374999px;stroke-width:1">ipsum</tspan></text>
+    <image
+       sodipodi:absref="/home/martin/public_html/upcrowd/_internal/vedatoronovinka-gen/img/logo.png"
+       y="3.6209102"
+       x="-80.833946"
+       id="logo"
+       xlink:href="http://upcrowd.upol.cz/_internal/vedatoronovinka-gen/img/logo.png"
+       style="stroke-width:3.91642904;image-rendering:optimizeSpeed"
+       preserveAspectRatio="none"
+       height="10.809167"
+       width="8.827486"
+       transform="rotate(-90)" />
+    <image
+       width="34.572224"
+       height="42.333332"
+       preserveAspectRatio="none"
+       style="image-rendering:optimizeSpeed"
+       xlink:href="http://upcrowd.upol.cz/_internal/vedatoronovinka-gen/img/no-image.png"
+       id="image3810"
+       x="439.30911"
+       y="-111.21429"
+       sodipodi:absref="/home/martin/public_html/upcrowd/_internal/vedatoronovinka-gen/img/logo.png" />
+    <rect
+       style="opacity:1;fill:#161616;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter4751)"
+       id="vedator-url-shadow"
+       width="3.7174542"
+       height="28.503345"
+       x="8.9535294"
+       y="85.723442" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;line-height:3.25;font-family:sans;-inkscape-font-specification:sans;letter-spacing:-0.26458335px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.41696823"
+       x="-114.15495"
+       y="12.36361"
+       id="vedator-url"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         x="-114.15495"
+         y="12.36361"
+         id="tspan4627"
+         style="stroke-width:1.41696823"><tspan
+           x="-114.15495"
+           y="12.36361"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333359px;font-family:sans;-inkscape-font-specification:sans;letter-spacing:-0.26458335px;fill:#ffffff;fill-opacity:1;stroke-width:1.41696823"
+           id="tspan4625">VEDATOR.ORG</tspan></tspan></text>
   </g>
 </svg>
