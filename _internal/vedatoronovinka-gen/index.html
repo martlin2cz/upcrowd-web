@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/page.css">
+		<link rel="stylesheet" type="text/css" href="css/card.css">
+		
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
+		<script type="text/javascript" src="streeting/js/lib/streeting/streeting.js"></script>                                             
+		<script type="text/javascript" src="streeting/js/lib/streeting/extras.js"></script>
+
+		<script type="text/javascript" src="js/scripts.js"></script>
+
+		<meta charset="UTF-8">
+		<!--		<meta name="viewport" content="width=device-width,initial-scale=1"> -->
+		<title>Generátor Vědátoronovinky</title>
+	</head>
+	<body onload="return initialize()">
+		<article>	
+		<h2>Vědátoronovinka</h2>
+		
+		<form id="inputs-form">
+			<p>Vlož horní a spodní text a obrázek pozadí.</p>
+			<p>U textu bude nějak potřeba pořešit zalamování řádků. TODO</p>
+			<p>U obrázku je nutné vložit kompletní URL, je možné jim zaoblit rohy. Po pokročilejší ořez a zaoblení je ovšem potřeba použít <a href="../online-image-cropper-v1.1" target="blank">online-image-cropper</a>. U popisu je nutné ručně zalamovat text vložením <code>&lt;br&gt;</code>. Potom si vyber design (facebook, twitter, 5 postů, 6 postů a podob.).</p>
+
+			<article>
+				<section>
+					<label>Horní text:</label>
+					<input type="text" class="on-single-line" placeholder="Šokantním zjištěním je, že ..." 
+					data-streeting-id="output-text-top" data-streeting-processor="streeting.multilinedTextProcessor.centerAligned">
+				</section>
+				<section>
+					<label>Spodní text:</label>
+					<input type="text" class="on-single-line" placeholder="Což by ovšem nemělo nikoho překvapit, páč ..." 
+					data-streeting-id="output-text-bottom" data-streeting-processor="streeting.multilinedTextProcessor.centerAligned">
+				</section>
+				<section>
+					<label>Obrázek:</label>
+                                        <input type="url" value="img/no-image.png" placeholder="http://něco.com/obrázek.jpg" 
+                                                data-streeting-id="output-bg-image" data-streeting-attr="xlink:href">
+				</section>
+			</article>
+
+			<input type="submit" value="Potvrdit">
+		<!--	
+			<div class="panel">
+				<label>Design výstupního obrázku:</label>
+				<select id="templates-dropdown" oninput="templateChanged(event)" />
+				<input type="submit" value="Upravit" />
+			</div>
+		-->
+		</form>
+		</article>
+
+		<article>
+			<h2>Výsledek</h2>
+	
+			<div>
+				<p>Pro správné zobrazení výsledného obrázku je vhodné mít v počítači nainstalovány patřičné fonty (aktuálně jen <em>Impact</em>).</p>
+				<p>Použij <strong>Print-Screen</strong> pro zachycení obrázku. Z technických (resp. bezpečnostních důvodů na straně prohlížeče) je to nejjednodušší cesta.</p>
+			</div>
+
+			<div class="panel">
+				<svg id="output-svg">
+					<text>Náhled</text>
+				</svg>
+			</div>
+		</article>
+		
+	</body>
+</html>
