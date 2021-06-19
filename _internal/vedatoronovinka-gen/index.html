@@ -37,11 +37,31 @@
 				<input type="text" value="Což by ovšem nemělo <br> nikoho překvapit, páč ..." 
 					data-streeting-id="output-text-bottom" data-streeting-processor="streeting.multilinedTextProcessor.centerAligned">
 				</p>
+			</section>
+			<section>
 				<p>
-				<label>Obrázek:</label>
+				<label>Adresa obrázku:</label>
 				<input type="url" value="img/no-image.png" placeholder="http://něco.com/obrázek.jpg" 
                                                 data-streeting-id="output-bg-image" data-streeting-attr="xlink:href">
 				</p>
+				<p>
+				<label>Posun vodorovně:</label>
+				<input type="range" value="0" min="-1000" max="1000"
+                                                data-streeting-id="output-bg-image" data-streeting-attr="x">
+				<label>Posun svisle:</label>
+				<input type="range" value="0" min="-1000" max="1000"
+                                                data-streeting-id="output-bg-image" data-streeting-attr="y">
+				</p>
+				<p>
+				<label>Šířka:</label>
+				<input type="range" value="231" min="0" max="1000"
+                                                data-streeting-id="output-bg-image" data-streeting-attr="width">
+				<label>Výška:</label>
+				<input type="range" value="231" min="0" max="1000"
+                                                data-streeting-id="output-bg-image" data-streeting-attr="height">
+				</p>
+
+
 			</section>
 		<!--	
 			<section>
@@ -52,6 +72,7 @@
 		-->
 	
 			<section>
+				<input type="reset" value="Obnovit">
 				<input type="submit" value="Potvrdit">
 			</section>
 		</form>

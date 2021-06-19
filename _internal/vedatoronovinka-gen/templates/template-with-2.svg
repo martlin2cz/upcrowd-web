@@ -92,6 +92,17 @@
          stdDeviation="0.80551999"
          id="feGaussianBlur4753" />
     </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4559">
+      <rect
+         style="opacity:1;fill:#161616;fill-opacity:1;stroke:#000000;stroke-width:0.49999997;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect4561"
+         width="231"
+         height="231"
+         x="0"
+         y="66" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -100,9 +111,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70000002"
-     inkscape:cx="189.19952"
-     inkscape:cy="451.16508"
+     inkscape:zoom="0.175"
+     inkscape:cx="16.770267"
+     inkscape:cy="787.68425"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -145,8 +156,8 @@
        height="231.51042"
        width="231.51042" />
     <image
-       y="66.000008"
-       x="0"
+       y="66"
+       x="-38"
        id="output-bg-image"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATgAAAE4CAIAAABAHXg9AAAAA3NCSVQICAjb4U/gAAAgAElEQVR4
 nMS92ZMkR3on9vkRR2bknZVZR1dV3/eBo3HMcA5oMJwhB7NDI2eX4svSjDLJbNd2zaS/RHqWXqWH
@@ -1536,10 +1547,11 @@ vUpxElHjjl/XwnwsYpT97d0J971izvr8n5+a1dZp99Q0TF3TGWOYDBt2vQTh+d54MvZ8D1SglJbz
 5bxh5gyTr3h30E3XkaYrzFCEIBwMCXuACUbNeqn25bJXzpfJo9L/ACsJGgauBn8YAAAAAElFTkSu
 QmCC
 "
-       style="stroke-width:0.35735932;image-rendering:optimizeSpeed"
+       style="stroke-width:0.30998588;image-rendering:optimizeSpeed"
        preserveAspectRatio="none"
        height="231"
-       width="231" />
+       width="307"
+       clip-path="url(#clipPath4559)" />
     <path
        style="fill:url(#radialGradient928);fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 48.800975,78.03961 3.853008,26.20969 -0.965739,-23.829658 23.576039,-3.59939 z"
