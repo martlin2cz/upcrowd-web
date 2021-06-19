@@ -87,3 +87,7 @@ li.input-post {
         border-radius: 50%;
 }
 
+#output-svg {
+	border: 2px solid white;
+}
+
