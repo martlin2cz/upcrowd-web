@@ -15,7 +15,7 @@
    viewBox="0 0 209.55 211.66667"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="sample-template-1.svg">
   <defs
      id="defs2">
@@ -41,14 +41,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="494.77652"
-     inkscape:cy="714.42869"
+     inkscape:cx="584.42756"
+     inkscape:cy="730.59113"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
      units="px"
-     inkscape:window-width="1366"
-     inkscape:window-height="712"
+     inkscape:window-width="1920"
+     inkscape:window-height="1129"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -184,7 +184,7 @@
            x="168.80887"
            y="110.78286"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05555534px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab Bold';letter-spacing:-0.13229167px;fill:#deffff;stroke-width:1"
-           id="tspan1711">VedatorCZ</tspan></tspan></text>
+           id="tspan1711">vedator.org</tspan></tspan></text>
     <g
        id="fb-logo"
        transform="matrix(0.01754173,0,0,0.01754173,159.5861,103.68338)"
